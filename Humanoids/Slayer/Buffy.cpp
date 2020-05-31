@@ -7,14 +7,12 @@
 
 #include "Buffy.h"
 
-Buffy::Buffy(size_t x, size_t y) : Hunter(ALIVE, REPRESENTATION, x, y, SPEED, ENNEMI) {
-
-}
+Buffy::Buffy(size_t x, size_t y) : Hunter(ALIVE, REPRESENTATION, x, y, SPEED) {}
 
 void Buffy::setAction(Field &field) {
-    Hunter::setAction(field);
+    //Hunter::setAction(field);
 }
 
 void Buffy::move(Field &field) {
-    Hunter::move(field);
+    //Hunter::move(field);
 }

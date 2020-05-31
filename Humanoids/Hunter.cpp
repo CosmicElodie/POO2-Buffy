@@ -8,10 +8,8 @@
 #include <cstring>
 #include "Hunter.h"
 
-Hunter::Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed, const char _preys[]) :
-Humanoid(alive, representation, x, y, speed){
-    strcpy(preys, _preys);
-}
+Hunter::Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed) :
+Humanoid(alive, representation, x, y, speed){}
 
 void Hunter::setAction(Field &field) {
 

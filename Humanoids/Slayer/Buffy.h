@@ -14,7 +14,7 @@ class Buffy : public Hunter {
 private:
     const char ALIVE = true;
     const char REPRESENTATION = 'B';
-    const char ENNEMI = 'V';
+    const char PREYS[1] = {'V'};
     const size_t SPEED = 2;
 
 public:

@@ -28,13 +28,9 @@ private :
     //liste d'humanoides peuplant le terrain
     std::list<Humanoid*> humanoids;
 
-    //Représentation du field
-    Humanoid** board;
+    //Représentation du field sous forme matricielle
+    Humanoid** field;
 
-private:
-
-    //représente le terrain sous forme matricielle
-    Field** field;
 public :
 
     /**

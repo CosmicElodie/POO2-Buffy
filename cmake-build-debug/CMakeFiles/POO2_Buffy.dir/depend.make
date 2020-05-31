@@ -25,9 +25,6 @@ CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.obj: ../Humanoids/Hunter.h
 CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.obj: ../Humanoids/Slayer/Buffy.cpp
 CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.obj: ../Humanoids/Slayer/Buffy.h
 
-CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Faith.cpp.obj: ../Humanoids/Slayer/Faith.cpp
-CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Faith.cpp.obj: ../Humanoids/Slayer/Faith.h
-
 CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Humanoid.h
 CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Victim/Lambda.cpp
 CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Victim/Lambda.h

@@ -10,17 +10,28 @@
 
 
 #include <cstdio>
+#include <ostream>
 
 class Action;
 class Field;
 
 class Humanoid {
+    friend std::ostream & operator << (std::ostream & os, const Humanoid & humanoid)
+    {
+        os << humanoid.getRepresentation();
+        return os;
+    }
+
 private :
     //L'humain est-il toujours en vie ?
     bool alive;
 
     //Représentation sur la console
     char representation;
+public:
+    char getRepresentation() const;
+
+private:
 
     //la position de l'humanoide sur le terrain.
     size_t positionX, positionY;

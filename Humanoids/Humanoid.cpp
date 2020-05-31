@@ -45,3 +45,7 @@ void Humanoid::executeAction(Field &field) {
 void Humanoid::move(Field &field) {
     //TODO
 }
+
+char Humanoid::getRepresentation() const {
+    return representation;
+}

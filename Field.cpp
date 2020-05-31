@@ -37,7 +37,7 @@ void Field::printField() const {
     size_t l = width;
     for (size_t row = width; row > 0; --row) {
         for (size_t column = height; height > 0; --column) {
-//            std::cout << std::setw(l) << std::setfill('-') << field[row][column];
+           std::cout << std::setw(l) << std::setfill('-') << field[row][column];
         }
         std::cout << std::endl;
     }
@@ -57,8 +57,4 @@ size_t Field::getHeight() const {
 
 const std::list<Humanoid *> &Field::getHumanoids() const {
     return humanoids;
-}
-
-Field **Field::getField() const {
-    return field;
 }

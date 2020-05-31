@@ -13,11 +13,11 @@
 class Hunter : public Humanoid {
 
 private:
-    char preys[];
+    //TODO voir comment faire pour multiples proies
 
 public:
 //ALIVE, REPRESENTATION, x, y, SPEED, ENNEMI
-    Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed, const char * preys);
+    Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed);
 
     virtual void setAction(Field& field);
 
