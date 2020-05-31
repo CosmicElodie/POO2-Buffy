@@ -11,6 +11,18 @@
 #include "../Hunter.h"
 
 class Buffy : public Hunter {
+private:
+    const char ALIVE = true;
+    const char REPRESENTATION = 'B';
+    const char ENNEMI = 'V';
+    const size_t SPEED = 2;
+
+public:
+    Buffy(size_t x, size_t y);
+
+    virtual void setAction(Field& field);
+
+    virtual void move(Field &field);
 
 };
 

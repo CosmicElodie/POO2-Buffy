@@ -25,8 +25,8 @@ int Field::nextTurn()
 // Enlever les humanoides tués
     for (std::list<Humanoid*>::iterator it = humanoids.begin(); it != humanoids.end(); )
         if (!(*it)->isAlive()) {
-            it = humanoids.erase(it); // suppression de l’élément dans la liste
             delete *it; // destruction de l’humanoide référencé
+            it = humanoids.erase(it); // suppression de l’élément dans la liste
         }
         else
             ++it;
@@ -37,8 +37,28 @@ void Field::printField() const {
     size_t l = width;
     for (size_t row = width; row > 0; --row) {
         for (size_t column = height; height > 0; --column) {
-            std::cout << std::setw(l) << std::setfill('-') << field[row][column];
+//            std::cout << std::setw(l) << std::setfill('-') << field[row][column];
         }
         std::cout << std::endl;
     }
+}
+
+size_t Field::getTurn() const {
+    return turn;
+}
+
+size_t Field::getWidth() const {
+    return width;
+}
+
+size_t Field::getHeight() const {
+    return height;
+}
+
+const std::list<Humanoid *> &Field::getHumanoids() const {
+    return humanoids;
+}
+
+Field **Field::getField() const {
+    return field;
 }

@@ -8,22 +8,18 @@ CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.obj: ../Field.cpp
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.obj: ../Field.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.obj: ../Humanoids/Humanoid.h
 
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Humanoid.cpp.obj: ../Field.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Humanoid.cpp.obj: ../Humanoids/Humanoid.cpp
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Humanoid.cpp.obj: ../Humanoids/Humanoid.h
 
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.obj: ../Field.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.obj: ../Humanoids/Humanoid.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.obj: ../Humanoids/Hunter.cpp
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.obj: ../Humanoids/Hunter.h
 
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj: ../Field.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj: ../Humanoids/Humanoid.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj: ../Humanoids/Hunter.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj: ../Humanoids/Monster/Vampire.cpp
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj: ../Humanoids/Monster/Vampire.h
 
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.obj: ../Field.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.obj: ../Humanoids/Humanoid.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.obj: ../Humanoids/Hunter.h
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.obj: ../Humanoids/Slayer/Buffy.cpp
@@ -32,10 +28,9 @@ CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.obj: ../Humano
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Faith.cpp.obj: ../Humanoids/Slayer/Faith.cpp
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Faith.cpp.obj: ../Humanoids/Slayer/Faith.h
 
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj: ../Field.h
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj: ../Humanoids/Humanoid.h
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj: ../Humanoids/Victim/Person.cpp
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj: ../Humanoids/Victim/Person.h
+CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Humanoid.h
+CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Victim/Lambda.cpp
+CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Victim/Lambda.h
 
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/main.cpp.obj: ../main.cpp
 

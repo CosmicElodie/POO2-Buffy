@@ -12,6 +12,17 @@
 
 class Hunter : public Humanoid {
 
+private:
+    char preys[];
+
+public:
+//ALIVE, REPRESENTATION, x, y, SPEED, ENNEMI
+    Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed, const char * preys);
+
+    virtual void setAction(Field& field);
+
+    virtual void move(Field &field);
+
 };
 
 

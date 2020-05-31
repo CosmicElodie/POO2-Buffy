@@ -6,7 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj"
   "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.obj"
   "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Faith.cpp.obj"
-  "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj"
+  "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj"
   "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/main.cpp.obj"
   "POO2_Buffy_Crull_Lagier.exe"
   "POO2_Buffy_Crull_Lagier.exe.manifest"

@@ -52,12 +52,12 @@ CMAKE_BINARY_DIR = "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/all
+all: CMakeFiles/POO2_Buffy.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/clean
+clean: CMakeFiles/POO2_Buffy.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/POO2_Buffy_Crull_Lagier.dir
+# Target rules for target CMakeFiles/POO2_Buffy.dir
 
 # All Build rule for target.
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/all:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/depend
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target POO2_Buffy_Crull_Lagier"
-.PHONY : CMakeFiles/POO2_Buffy_Crull_Lagier.dir/all
+CMakeFiles/POO2_Buffy.dir/all:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/depend
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target POO2_Buffy"
+.PHONY : CMakeFiles/POO2_Buffy.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" 10
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/all
+CMakeFiles/POO2_Buffy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" 9
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/POO2_Buffy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/POO2_Buffy_Crull_Lagier.dir/rule
+.PHONY : CMakeFiles/POO2_Buffy.dir/rule
 
 # Convenience name for target.
-POO2_Buffy_Crull_Lagier: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/rule
+POO2_Buffy: CMakeFiles/POO2_Buffy.dir/rule
 
-.PHONY : POO2_Buffy_Crull_Lagier
+.PHONY : POO2_Buffy
 
 # clean rule for target.
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/clean:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/clean
-.PHONY : CMakeFiles/POO2_Buffy_Crull_Lagier.dir/clean
+CMakeFiles/POO2_Buffy.dir/clean:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/clean
+.PHONY : CMakeFiles/POO2_Buffy.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -8,20 +8,17 @@
 #ifndef POO2_BUFFY_CRULL_LAGIER_ACTION_H
 #define POO2_BUFFY_CRULL_LAGIER_ACTION_H
 
-
+class Field;
 class Action {
-    class Action {
 
-    private:
+private:
 
-    public:
-        /**
-         * Permet d'exucéuter l'action courant en influant sur l'environnement.
-         * @param f : l'environnement courant.
-         */
-        void execute(Field<Humanoid>& f);
-
-    };
+public:
+    /**
+     * Permet d'exucéuter l'action courant en influant sur l'environnement.
+     * @param f : l'environnement courant.
+     */
+    void execute(Field &f);
 
 };
 

@@ -12,6 +12,7 @@
 #include <iostream>
 #include "Humanoids/Humanoid.h"
 
+class Humanoid;
 
 class Field;
 std::ostream & operator <<(std::ostream& os, Field & field);
@@ -27,7 +28,12 @@ private :
     //liste d'humanoides peuplant le terrain
     std::list<Humanoid*> humanoids;
 
-    //représente le terrain de forme matricielle
+    //Représentation du field
+    Humanoid** board;
+
+private:
+
+    //représente le terrain sous forme matricielle
     Field** field;
 public :
 
@@ -61,7 +67,17 @@ public :
      */
     void printField() const;
 
-};
+    size_t getTurn() const;
 
+    size_t getWidth() const;
+
+    size_t getHeight() const;
+
+    const std::list<Humanoid *> &getHumanoids() const;
+
+    Field **getField() const;
+
+
+};
 
 #endif //POO2_BUFFY_CRULL_LAGIER_FIELD_H

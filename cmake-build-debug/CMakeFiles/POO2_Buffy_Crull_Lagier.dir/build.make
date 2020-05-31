@@ -134,18 +134,18 @@ CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.s"
 	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Hunter.cpp" -o CMakeFiles\POO2_Buffy_Crull_Lagier.dir\Humanoids\Hunter.cpp.s
 
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/flags.make
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj: ../Humanoids/Victim/Person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy_Crull_Lagier.dir\Humanoids\Victim\Person.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Person.cpp"
+CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/flags.make
+CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Victim/Lambda.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy_Crull_Lagier.dir\Humanoids\Victim\Lambda.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Lambda.cpp"
 
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.i"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Person.cpp" > CMakeFiles\POO2_Buffy_Crull_Lagier.dir\Humanoids\Victim\Person.cpp.i
+CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.i"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Lambda.cpp" > CMakeFiles\POO2_Buffy_Crull_Lagier.dir\Humanoids\Victim\Lambda.cpp.i
 
-CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.s"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Person.cpp" -o CMakeFiles\POO2_Buffy_Crull_Lagier.dir\Humanoids\Victim\Person.cpp.s
+CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.s"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Lambda.cpp" -o CMakeFiles\POO2_Buffy_Crull_Lagier.dir\Humanoids\Victim\Lambda.cpp.s
 
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.obj: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/flags.make
 CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.obj: ../Field.cpp
@@ -181,7 +181,7 @@ POO2_Buffy_Crull_Lagier_OBJECTS = \
 "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Faith.cpp.obj" \
 "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj" \
 "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.obj" \
-"CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj" \
+"CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj" \
 "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.obj" \
 "CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Action.cpp.obj"
 
@@ -194,7 +194,7 @@ POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Sl
 POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Faith.cpp.obj
 POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj
 POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.obj
-POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj
+POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Lambda.cpp.obj
 POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.obj
 POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Action.cpp.obj
 POO2_Buffy_Crull_Lagier.exe: CMakeFiles/POO2_Buffy_Crull_Lagier.dir/build.make

@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named POO2_Buffy_Crull_Lagier
+# Target rules for targets named POO2_Buffy
 
 # Build rule for target.
-POO2_Buffy_Crull_Lagier: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 POO2_Buffy_Crull_Lagier
-.PHONY : POO2_Buffy_Crull_Lagier
+POO2_Buffy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 POO2_Buffy
+.PHONY : POO2_Buffy
 
 # fast build rule for target.
-POO2_Buffy_Crull_Lagier/fast:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/build
-.PHONY : POO2_Buffy_Crull_Lagier/fast
+POO2_Buffy/fast:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/build
+.PHONY : POO2_Buffy/fast
 
 Action.obj: Action.cpp.obj
 
@@ -128,7 +128,7 @@ Action.obj: Action.cpp.obj
 
 # target to build an object file
 Action.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Action.cpp.obj
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action.cpp.obj
 .PHONY : Action.cpp.obj
 
 Action.i: Action.cpp.i
@@ -137,7 +137,7 @@ Action.i: Action.cpp.i
 
 # target to preprocess a source file
 Action.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Action.cpp.i
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action.cpp.i
 .PHONY : Action.cpp.i
 
 Action.s: Action.cpp.s
@@ -146,7 +146,7 @@ Action.s: Action.cpp.s
 
 # target to generate assembly for a file
 Action.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Action.cpp.s
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action.cpp.s
 .PHONY : Action.cpp.s
 
 Field.obj: Field.cpp.obj
@@ -155,7 +155,7 @@ Field.obj: Field.cpp.obj
 
 # target to build an object file
 Field.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.obj
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Field.cpp.obj
 .PHONY : Field.cpp.obj
 
 Field.i: Field.cpp.i
@@ -164,7 +164,7 @@ Field.i: Field.cpp.i
 
 # target to preprocess a source file
 Field.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.i
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Field.cpp.i
 .PHONY : Field.cpp.i
 
 Field.s: Field.cpp.s
@@ -173,7 +173,7 @@ Field.s: Field.cpp.s
 
 # target to generate assembly for a file
 Field.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Field.cpp.s
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Field.cpp.s
 .PHONY : Field.cpp.s
 
 Humanoids/Humanoid.obj: Humanoids/Humanoid.cpp.obj
@@ -182,7 +182,7 @@ Humanoids/Humanoid.obj: Humanoids/Humanoid.cpp.obj
 
 # target to build an object file
 Humanoids/Humanoid.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Humanoid.cpp.obj
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.obj
 .PHONY : Humanoids/Humanoid.cpp.obj
 
 Humanoids/Humanoid.i: Humanoids/Humanoid.cpp.i
@@ -191,7 +191,7 @@ Humanoids/Humanoid.i: Humanoids/Humanoid.cpp.i
 
 # target to preprocess a source file
 Humanoids/Humanoid.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Humanoid.cpp.i
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.i
 .PHONY : Humanoids/Humanoid.cpp.i
 
 Humanoids/Humanoid.s: Humanoids/Humanoid.cpp.s
@@ -200,7 +200,7 @@ Humanoids/Humanoid.s: Humanoids/Humanoid.cpp.s
 
 # target to generate assembly for a file
 Humanoids/Humanoid.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Humanoid.cpp.s
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.s
 .PHONY : Humanoids/Humanoid.cpp.s
 
 Humanoids/Hunter.obj: Humanoids/Hunter.cpp.obj
@@ -209,7 +209,7 @@ Humanoids/Hunter.obj: Humanoids/Hunter.cpp.obj
 
 # target to build an object file
 Humanoids/Hunter.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.obj
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter.cpp.obj
 .PHONY : Humanoids/Hunter.cpp.obj
 
 Humanoids/Hunter.i: Humanoids/Hunter.cpp.i
@@ -218,7 +218,7 @@ Humanoids/Hunter.i: Humanoids/Hunter.cpp.i
 
 # target to preprocess a source file
 Humanoids/Hunter.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.i
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter.cpp.i
 .PHONY : Humanoids/Hunter.cpp.i
 
 Humanoids/Hunter.s: Humanoids/Hunter.cpp.s
@@ -227,7 +227,7 @@ Humanoids/Hunter.s: Humanoids/Hunter.cpp.s
 
 # target to generate assembly for a file
 Humanoids/Hunter.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Hunter.cpp.s
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter.cpp.s
 .PHONY : Humanoids/Hunter.cpp.s
 
 Humanoids/Monster/Vampire.obj: Humanoids/Monster/Vampire.cpp.obj
@@ -236,7 +236,7 @@ Humanoids/Monster/Vampire.obj: Humanoids/Monster/Vampire.cpp.obj
 
 # target to build an object file
 Humanoids/Monster/Vampire.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.obj
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Monster/Vampire.cpp.obj
 .PHONY : Humanoids/Monster/Vampire.cpp.obj
 
 Humanoids/Monster/Vampire.i: Humanoids/Monster/Vampire.cpp.i
@@ -245,7 +245,7 @@ Humanoids/Monster/Vampire.i: Humanoids/Monster/Vampire.cpp.i
 
 # target to preprocess a source file
 Humanoids/Monster/Vampire.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.i
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Monster/Vampire.cpp.i
 .PHONY : Humanoids/Monster/Vampire.cpp.i
 
 Humanoids/Monster/Vampire.s: Humanoids/Monster/Vampire.cpp.s
@@ -254,7 +254,7 @@ Humanoids/Monster/Vampire.s: Humanoids/Monster/Vampire.cpp.s
 
 # target to generate assembly for a file
 Humanoids/Monster/Vampire.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Monster/Vampire.cpp.s
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Monster/Vampire.cpp.s
 .PHONY : Humanoids/Monster/Vampire.cpp.s
 
 Humanoids/Slayer/Buffy.obj: Humanoids/Slayer/Buffy.cpp.obj
@@ -263,7 +263,7 @@ Humanoids/Slayer/Buffy.obj: Humanoids/Slayer/Buffy.cpp.obj
 
 # target to build an object file
 Humanoids/Slayer/Buffy.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.obj
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.obj
 .PHONY : Humanoids/Slayer/Buffy.cpp.obj
 
 Humanoids/Slayer/Buffy.i: Humanoids/Slayer/Buffy.cpp.i
@@ -272,7 +272,7 @@ Humanoids/Slayer/Buffy.i: Humanoids/Slayer/Buffy.cpp.i
 
 # target to preprocess a source file
 Humanoids/Slayer/Buffy.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.i
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.i
 .PHONY : Humanoids/Slayer/Buffy.cpp.i
 
 Humanoids/Slayer/Buffy.s: Humanoids/Slayer/Buffy.cpp.s
@@ -281,62 +281,35 @@ Humanoids/Slayer/Buffy.s: Humanoids/Slayer/Buffy.cpp.s
 
 # target to generate assembly for a file
 Humanoids/Slayer/Buffy.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Buffy.cpp.s
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.s
 .PHONY : Humanoids/Slayer/Buffy.cpp.s
 
-Humanoids/Slayer/Faith.obj: Humanoids/Slayer/Faith.cpp.obj
+Humanoids/Victim/Lambda.obj: Humanoids/Victim/Lambda.cpp.obj
 
-.PHONY : Humanoids/Slayer/Faith.obj
-
-# target to build an object file
-Humanoids/Slayer/Faith.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Faith.cpp.obj
-.PHONY : Humanoids/Slayer/Faith.cpp.obj
-
-Humanoids/Slayer/Faith.i: Humanoids/Slayer/Faith.cpp.i
-
-.PHONY : Humanoids/Slayer/Faith.i
-
-# target to preprocess a source file
-Humanoids/Slayer/Faith.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Faith.cpp.i
-.PHONY : Humanoids/Slayer/Faith.cpp.i
-
-Humanoids/Slayer/Faith.s: Humanoids/Slayer/Faith.cpp.s
-
-.PHONY : Humanoids/Slayer/Faith.s
-
-# target to generate assembly for a file
-Humanoids/Slayer/Faith.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Slayer/Faith.cpp.s
-.PHONY : Humanoids/Slayer/Faith.cpp.s
-
-Humanoids/Victim/Person.obj: Humanoids/Victim/Person.cpp.obj
-
-.PHONY : Humanoids/Victim/Person.obj
+.PHONY : Humanoids/Victim/Lambda.obj
 
 # target to build an object file
-Humanoids/Victim/Person.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.obj
-.PHONY : Humanoids/Victim/Person.cpp.obj
+Humanoids/Victim/Lambda.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj
+.PHONY : Humanoids/Victim/Lambda.cpp.obj
 
-Humanoids/Victim/Person.i: Humanoids/Victim/Person.cpp.i
+Humanoids/Victim/Lambda.i: Humanoids/Victim/Lambda.cpp.i
 
-.PHONY : Humanoids/Victim/Person.i
+.PHONY : Humanoids/Victim/Lambda.i
 
 # target to preprocess a source file
-Humanoids/Victim/Person.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.i
-.PHONY : Humanoids/Victim/Person.cpp.i
+Humanoids/Victim/Lambda.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.i
+.PHONY : Humanoids/Victim/Lambda.cpp.i
 
-Humanoids/Victim/Person.s: Humanoids/Victim/Person.cpp.s
+Humanoids/Victim/Lambda.s: Humanoids/Victim/Lambda.cpp.s
 
-.PHONY : Humanoids/Victim/Person.s
+.PHONY : Humanoids/Victim/Lambda.s
 
 # target to generate assembly for a file
-Humanoids/Victim/Person.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/Humanoids/Victim/Person.cpp.s
-.PHONY : Humanoids/Victim/Person.cpp.s
+Humanoids/Victim/Lambda.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.s
+.PHONY : Humanoids/Victim/Lambda.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -344,7 +317,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -353,7 +326,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -362,7 +335,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy_Crull_Lagier.dir\build.make CMakeFiles/POO2_Buffy_Crull_Lagier.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -371,7 +344,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... POO2_Buffy_Crull_Lagier
+	@echo ... POO2_Buffy
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Action.obj
@@ -392,12 +365,9 @@ help:
 	@echo ... Humanoids/Slayer/Buffy.obj
 	@echo ... Humanoids/Slayer/Buffy.i
 	@echo ... Humanoids/Slayer/Buffy.s
-	@echo ... Humanoids/Slayer/Faith.obj
-	@echo ... Humanoids/Slayer/Faith.i
-	@echo ... Humanoids/Slayer/Faith.s
-	@echo ... Humanoids/Victim/Person.obj
-	@echo ... Humanoids/Victim/Person.i
-	@echo ... Humanoids/Victim/Person.s
+	@echo ... Humanoids/Victim/Lambda.obj
+	@echo ... Humanoids/Victim/Lambda.i
+	@echo ... Humanoids/Victim/Lambda.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

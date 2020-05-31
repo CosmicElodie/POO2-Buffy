@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=POO2_Buffy_Crull_Lagier
+CMAKE_PROJECT_NAME:STATIC=POO2_Buffy
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/Haskell Platform/8.4.3/mingw/bin/ranlib.exe
@@ -239,10 +239,16 @@ CMAKE_STRIP:FILEPATH=C:/Program Files/Haskell Platform/8.4.3/mingw/bin/strip.exe
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+POO2_Buffy_BINARY_DIR:STATIC=C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/cmake-build-debug
+
+//Value Computed by CMake
 POO2_Buffy_Crull_Lagier_BINARY_DIR:STATIC=C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/cmake-build-debug
 
 //Value Computed by CMake
 POO2_Buffy_Crull_Lagier_SOURCE_DIR:STATIC=C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy
+
+//Value Computed by CMake
+POO2_Buffy_SOURCE_DIR:STATIC=C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy
 
 
 ########################
