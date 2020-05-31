@@ -28,13 +28,6 @@ private :
 
     //Représentation sur la console
     char representation;
-public:
-    char getRepresentation() const;
-
-private:
-
-    //la position de l'humanoide sur le terrain.
-    size_t positionX, positionY;
 
     //la vitesse de déplacement d'un humanoid
     size_t speed;
@@ -42,7 +35,11 @@ private:
     //l'action en cours de l'humanoid
     Action* action;
 
-public :
+    //la position de l'humanoide sur le terrain.
+    size_t positionX, positionY;
+
+public:
+    char getRepresentation() const;
 
     /**
      * Créé un humanoid avec les diverses informations ci-dessous..
@@ -84,6 +81,10 @@ public :
 
     bool operator==(const Humanoid &humanoid) const;
     bool operator!=(const Humanoid &humanoid) const;
+
+    size_t getPositionX();
+
+    size_t getPositionY();
 
 };
 

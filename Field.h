@@ -28,26 +28,33 @@ private :
     //liste d'humanoides peuplant le terrain
     std::list<Humanoid*> humanoids;
 
+protected:
     //Représentation du field sous forme matricielle
-    Humanoid** field;
+    char** field;
 
 public :
 
     /**
      * Constructeur
-     * Permet de créer un Field sans nécessairement passer des paramètres.
-     * Le terrain aura alors une dimension de 50 x 50, et aucune personnes dessus.
-     */
-    Field();
-
-    /**
-     * Constructeur
      * Permet de créer un Field en précisant les dimensions et les personnes dessus.
-     * @param humanoids : tous les humanoides, genre confondus.
      * @param width : la largeur du terrain
      * @param height : la longueur du terrain
      */
-    explicit Field(const std::list<Humanoid *> &humanoids, size_t width, size_t height);
+    explicit Field(size_t width, size_t height, size_t nbVampires, size_t nbHumans);
+
+    /**
+     * Sert à initialiser le board.
+     * @param width : la largeur du board
+     * @param height : la longueur du board
+     */
+    void initializeBoard(size_t width, size_t height);
+
+    /**
+     * Permet de répartir les différents acteurs sur le board.
+     * @param representation : la lettre qui représente l'humanoide.
+     * @param number : le nombre d'humanoides à dépsoer sur le board.
+     */
+    void initializePeople(const char representation, size_t number);
 
 /**
      * Permet de gérer un tour de la simulation
@@ -71,8 +78,7 @@ public :
 
     const std::list<Humanoid *> &getHumanoids() const;
 
-    Field **getField() const;
-
+    void place(size_t x, size_t y, char representation);
 
 };
 

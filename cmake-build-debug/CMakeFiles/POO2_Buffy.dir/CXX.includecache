@@ -6,12 +6,40 @@
 
 #IncludeRegexTransform: 
 
+../Humanoids/Humanoid.h
+cstdio
+-
+ostream
+-
+
+../Humanoids/Hunter.h
+Humanoid.h
+../Humanoids/Humanoid.h
+
+../Humanoids/Monster/Vampire.h
+../Hunter.h
+../Humanoids/Hunter.h
+
+../Humanoids/Slayer/Buffy.h
+../Hunter.h
+../Humanoids/Hunter.h
+
+../Humanoids/Victim/Lambda.h
+../Humanoid.h
+../Humanoids/Humanoid.h
+
 C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.cpp
 list
 -
 iostream
 -
 iomanip
+-
+Humanoids/Monster/Vampire.h
+-
+Humanoids/Victim/Lambda.h
+-
+Humanoids/Slayer/Buffy.h
 -
 Field.h
 C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.h
@@ -67,4 +95,10 @@ C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids
 C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Victim/Lambda.h
 ../Humanoid.h
 C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Humanoid.h
+
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/main.cpp
+iostream
+-
+Field.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.h
 

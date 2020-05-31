@@ -4,6 +4,11 @@
 CMakeFiles/POO2_Buffy.dir/Action.cpp.obj: ../Action.cpp
 CMakeFiles/POO2_Buffy.dir/Action.cpp.obj: ../Action.h
 
+CMakeFiles/POO2_Buffy.dir/Field.cpp.obj: ../Humanoids/Humanoid.h
+CMakeFiles/POO2_Buffy.dir/Field.cpp.obj: ../Humanoids/Hunter.h
+CMakeFiles/POO2_Buffy.dir/Field.cpp.obj: ../Humanoids/Monster/Vampire.h
+CMakeFiles/POO2_Buffy.dir/Field.cpp.obj: ../Humanoids/Slayer/Buffy.h
+CMakeFiles/POO2_Buffy.dir/Field.cpp.obj: ../Humanoids/Victim/Lambda.h
 CMakeFiles/POO2_Buffy.dir/Field.cpp.obj: ../Field.cpp
 CMakeFiles/POO2_Buffy.dir/Field.cpp.obj: ../Field.h
 CMakeFiles/POO2_Buffy.dir/Field.cpp.obj: ../Humanoids/Humanoid.h
@@ -29,5 +34,7 @@ CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Humanoid
 CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Victim/Lambda.cpp
 CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Victim/Lambda.h
 
+CMakeFiles/POO2_Buffy.dir/main.cpp.obj: ../Field.h
+CMakeFiles/POO2_Buffy.dir/main.cpp.obj: ../Humanoids/Humanoid.h
 CMakeFiles/POO2_Buffy.dir/main.cpp.obj: ../main.cpp
 

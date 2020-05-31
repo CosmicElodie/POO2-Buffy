@@ -49,3 +49,12 @@ void Humanoid::move(Field &field) {
 char Humanoid::getRepresentation() const {
     return representation;
 }
+
+size_t Humanoid::getPositionX()  {
+    return positionX;
+}
+
+size_t Humanoid::getPositionY()  {
+    return positionY;
+}
+

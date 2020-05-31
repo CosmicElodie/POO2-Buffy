@@ -5,6 +5,11 @@ CMakeFiles/POO2_Buffy.dir/Action.cpp.obj
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action.cpp
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action.h
 CMakeFiles/POO2_Buffy.dir/Field.cpp.obj
+ ../Humanoids/Humanoid.h
+ ../Humanoids/Hunter.h
+ ../Humanoids/Monster/Vampire.h
+ ../Humanoids/Slayer/Buffy.h
+ ../Humanoids/Victim/Lambda.h
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.cpp
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.h
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Humanoid.h
@@ -30,4 +35,6 @@ CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Victim/Lambda.cpp
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Victim/Lambda.h
 CMakeFiles/POO2_Buffy.dir/main.cpp.obj
+ C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.h
+ C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Humanoid.h
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/main.cpp
