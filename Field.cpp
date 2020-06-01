@@ -109,8 +109,9 @@ void Field::placeHumanoids(size_t x, size_t y, char representation) {
 }
 
 void Field::printLine(std::ostream & os, Field & field) {
+    size_t w = field.getWidth() + 1;
     os << SEPARATOR_2 ;
-    os << std::setw(field.getWidth()+1) << std::setfill(SEPARATOR_3);
+    os << std::setw(w) << std::setfill(SEPARATOR_3);
     os << SEPARATOR_2 << std::endl;
 }
 

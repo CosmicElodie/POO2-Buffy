@@ -25,6 +25,8 @@ class Field {
             std::cout << SEPARATOR_1 << std::endl;
         }
         printLine(os, f);
+
+        return os;
     }
 private :
     static const char SEPARATOR_1 = '|';
