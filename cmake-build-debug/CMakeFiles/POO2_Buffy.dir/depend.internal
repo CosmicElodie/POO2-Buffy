@@ -34,6 +34,7 @@ CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.obj
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Humanoid.h
 CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj
  ../Action/Action.h
+ ../Action/Moving/Hunt.h
  ../Humanoids/Humanoid.h
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Hunter.cpp
  C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Hunter.h

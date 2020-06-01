@@ -7,7 +7,7 @@
 
 #include "Hunt.h"
 
-void Hunt::execute(Field &f) {
+void Hunt::execute(Field & f) {
 
 }
 

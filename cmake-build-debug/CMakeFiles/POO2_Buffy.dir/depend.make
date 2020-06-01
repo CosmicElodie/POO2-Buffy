@@ -33,6 +33,7 @@ CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.obj: ../Humanoids/Humanoid.cpp
 CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.obj: ../Humanoids/Humanoid.h
 
 CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj: ../Action/Action.h
+CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj: ../Action/Moving/Hunt.h
 CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj: ../Humanoids/Humanoid.h
 CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj: ../Humanoids/Hunter/Hunter.cpp
 CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj: ../Humanoids/Hunter/Hunter.h

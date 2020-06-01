@@ -12,8 +12,10 @@ Hunter::Hunter(size_t alive, const char representation, size_t x, size_t y, cons
 Humanoid(alive, representation, x, y, speed){}
 
 void Hunter::setAction(Field &field) {
-    //Hunt hunt = new Hunt(this->getSpeed());
-    //this->setNextAction(hunt);
+    //TODO : tester si des "ennemis" sont présents dans la liste.
+    //TODO : si oui, alors hunt. Sinon alors wander/sleep.
+    Hunt * hunt = new Hunt(this->getSpeed());
+    this->setNextAction(hunt);
 }
 
 float Hunter::calculateDistance(int hunterPositionX, int hunterPositionY, int preyPositionX, int preyPositionY){
