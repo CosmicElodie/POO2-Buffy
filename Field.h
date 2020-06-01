@@ -14,11 +14,22 @@
 
 class Humanoid;
 
-class Field;
-std::ostream & operator <<(std::ostream& os, Field & field);
-
 class Field {
+    friend std::ostream & operator <<(std::ostream& os, Field & f) {
+        printLine(os, f);
+        for (size_t row = 0; row < f.width; ++row) {
+            std::cout << SEPARATOR_1;
+            for (size_t column = 0; column < f.height; ++column) {
+                std::cout << f.field[row][column];
+            }
+            std::cout << SEPARATOR_1 << std::endl;
+        }
+        printLine(os, f);
+    }
 private :
+    static const char SEPARATOR_1 = '|';
+    static const char SEPARATOR_2 = '+';
+    static const char SEPARATOR_3 = '-';
     //tour
     size_t turn;
 
@@ -62,14 +73,6 @@ public :
      */
     int nextTurn();
 
-    /**
-     * Permet d'avoir une visualisation graphique du terrain.
-     * On créé une liste avec des dimensions du terrain.
-     * On place les humanoides dessus, aux positions voulues.
-     * Si une 'case' de la liste est null, on n'affiche rien, sinon on affiche la lettre représentant l'humanoide.
-     */
-    void printField() const;
-
     size_t getTurn() const;
 
     size_t getWidth() const;
@@ -78,7 +81,8 @@ public :
 
     const std::list<Humanoid *> &getHumanoids() const;
 
-    void place(size_t x, size_t y, char representation);
+    void placeHumanoids(size_t x, size_t y, char representation);
+    static void printLine(std::ostream & os, Field & field);
 
 };
 

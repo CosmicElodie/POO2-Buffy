@@ -18,7 +18,7 @@ class Field;
 class Humanoid {
     friend std::ostream & operator << (std::ostream & os, const Humanoid & humanoid)
     {
-        os << humanoid.getRepresentation();
+        os << humanoid.representation;
         return os;
     }
 

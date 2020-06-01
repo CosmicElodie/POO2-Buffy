@@ -31,14 +31,15 @@ Field::Field(size_t width, size_t height, size_t nbVampires, size_t nbHumans) : 
     //on créé Buffy.
     initializePeople(BUFFY_REPRESENTATION, 1);
 
-    //on place les humanoïdes sur le board.
+    //on placeHumanoids les humanoïdes sur le board.
     for(Humanoid* h : humanoids) {
-        this->place(h->getPositionX(),h->getPositionY(),h->getRepresentation());
+        this->placeHumanoids(h->getPositionX(), h->getPositionY(), h->getRepresentation());
     }
 }
 
 void Field::initializePeople(const char representation, size_t number)
 {
+    //srand( (unsigned)time(NULL) );
     for(int n = 0; n < number; ++n)
     {
         switch(representation)
@@ -59,6 +60,7 @@ void Field::initializePeople(const char representation, size_t number)
 void Field::initializeBoard(size_t width, size_t height)
 {
     field = new char*[width];
+
     for (int w_unit = 0; w_unit < width; ++w_unit) {
         field[w_unit] = new char[height];
         for (int h_unit = 0; h_unit < height; ++h_unit) {
@@ -86,18 +88,6 @@ int Field::nextTurn()
     return turn++;
 }
 
-void Field::printField() const {
-    std::cout << "blah";
-    for (size_t row = width; row > 0; --row) {
-        for (size_t column = height; height > 0; --column) {
-            std::cout << "blou";
-           std::cout << field[row][column];
-           std::cout << "bli";
-        }
-        std::cout << std::endl;
-    }
-}
-
 size_t Field::getTurn() const {
     return turn;
 }
@@ -114,8 +104,14 @@ const std::list<Humanoid *> &Field::getHumanoids() const {
     return humanoids;
 }
 
-void Field::place(size_t x, size_t y, char representation) {
+void Field::placeHumanoids(size_t x, size_t y, char representation) {
     field[x][y] = representation;
+}
+
+void Field::printLine(std::ostream & os, Field & field) {
+    os << SEPARATOR_2 ;
+    os << std::setw(field.getWidth()+1) << std::setfill(SEPARATOR_3);
+    os << SEPARATOR_2 << std::endl;
 }
 
 
