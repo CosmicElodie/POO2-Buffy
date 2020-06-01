@@ -122,32 +122,140 @@ POO2_Buffy/fast:
 	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/build
 .PHONY : POO2_Buffy/fast
 
-Action.obj: Action.cpp.obj
+Action/Action.obj: Action/Action.cpp.obj
 
-.PHONY : Action.obj
+.PHONY : Action/Action.obj
 
 # target to build an object file
-Action.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action.cpp.obj
-.PHONY : Action.cpp.obj
+Action/Action.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Action.cpp.obj
+.PHONY : Action/Action.cpp.obj
 
-Action.i: Action.cpp.i
+Action/Action.i: Action/Action.cpp.i
 
-.PHONY : Action.i
+.PHONY : Action/Action.i
 
 # target to preprocess a source file
-Action.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action.cpp.i
-.PHONY : Action.cpp.i
+Action/Action.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Action.cpp.i
+.PHONY : Action/Action.cpp.i
 
-Action.s: Action.cpp.s
+Action/Action.s: Action/Action.cpp.s
 
-.PHONY : Action.s
+.PHONY : Action/Action.s
 
 # target to generate assembly for a file
-Action.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action.cpp.s
-.PHONY : Action.cpp.s
+Action/Action.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Action.cpp.s
+.PHONY : Action/Action.cpp.s
+
+Action/Kill.obj: Action/Kill.cpp.obj
+
+.PHONY : Action/Kill.obj
+
+# target to build an object file
+Action/Kill.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj
+.PHONY : Action/Kill.cpp.obj
+
+Action/Kill.i: Action/Kill.cpp.i
+
+.PHONY : Action/Kill.i
+
+# target to preprocess a source file
+Action/Kill.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.i
+.PHONY : Action/Kill.cpp.i
+
+Action/Kill.s: Action/Kill.cpp.s
+
+.PHONY : Action/Kill.s
+
+# target to generate assembly for a file
+Action/Kill.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.s
+.PHONY : Action/Kill.cpp.s
+
+Action/Moving/Move.obj: Action/Moving/Move.cpp.obj
+
+.PHONY : Action/Moving/Move.obj
+
+# target to build an object file
+Action/Moving/Move.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.obj
+.PHONY : Action/Moving/Move.cpp.obj
+
+Action/Moving/Move.i: Action/Moving/Move.cpp.i
+
+.PHONY : Action/Moving/Move.i
+
+# target to preprocess a source file
+Action/Moving/Move.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.i
+.PHONY : Action/Moving/Move.cpp.i
+
+Action/Moving/Move.s: Action/Moving/Move.cpp.s
+
+.PHONY : Action/Moving/Move.s
+
+# target to generate assembly for a file
+Action/Moving/Move.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.s
+.PHONY : Action/Moving/Move.cpp.s
+
+Action/Moving/RunFrom.obj: Action/Moving/RunFrom.cpp.obj
+
+.PHONY : Action/Moving/RunFrom.obj
+
+# target to build an object file
+Action/Moving/RunFrom.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.obj
+.PHONY : Action/Moving/RunFrom.cpp.obj
+
+Action/Moving/RunFrom.i: Action/Moving/RunFrom.cpp.i
+
+.PHONY : Action/Moving/RunFrom.i
+
+# target to preprocess a source file
+Action/Moving/RunFrom.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.i
+.PHONY : Action/Moving/RunFrom.cpp.i
+
+Action/Moving/RunFrom.s: Action/Moving/RunFrom.cpp.s
+
+.PHONY : Action/Moving/RunFrom.s
+
+# target to generate assembly for a file
+Action/Moving/RunFrom.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.s
+.PHONY : Action/Moving/RunFrom.cpp.s
+
+Action/Moving/Wander.obj: Action/Moving/Wander.cpp.obj
+
+.PHONY : Action/Moving/Wander.obj
+
+# target to build an object file
+Action/Moving/Wander.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj
+.PHONY : Action/Moving/Wander.cpp.obj
+
+Action/Moving/Wander.i: Action/Moving/Wander.cpp.i
+
+.PHONY : Action/Moving/Wander.i
+
+# target to preprocess a source file
+Action/Moving/Wander.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.i
+.PHONY : Action/Moving/Wander.cpp.i
+
+Action/Moving/Wander.s: Action/Moving/Wander.cpp.s
+
+.PHONY : Action/Moving/Wander.s
+
+# target to generate assembly for a file
+Action/Moving/Wander.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.s
+.PHONY : Action/Moving/Wander.cpp.s
 
 Field.obj: Field.cpp.obj
 
@@ -203,86 +311,86 @@ Humanoids/Humanoid.cpp.s:
 	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.s
 .PHONY : Humanoids/Humanoid.cpp.s
 
-Humanoids/Hunter.obj: Humanoids/Hunter.cpp.obj
+Humanoids/Hunter/Hunter.obj: Humanoids/Hunter/Hunter.cpp.obj
 
-.PHONY : Humanoids/Hunter.obj
-
-# target to build an object file
-Humanoids/Hunter.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter.cpp.obj
-.PHONY : Humanoids/Hunter.cpp.obj
-
-Humanoids/Hunter.i: Humanoids/Hunter.cpp.i
-
-.PHONY : Humanoids/Hunter.i
-
-# target to preprocess a source file
-Humanoids/Hunter.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter.cpp.i
-.PHONY : Humanoids/Hunter.cpp.i
-
-Humanoids/Hunter.s: Humanoids/Hunter.cpp.s
-
-.PHONY : Humanoids/Hunter.s
-
-# target to generate assembly for a file
-Humanoids/Hunter.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter.cpp.s
-.PHONY : Humanoids/Hunter.cpp.s
-
-Humanoids/Monster/Vampire.obj: Humanoids/Monster/Vampire.cpp.obj
-
-.PHONY : Humanoids/Monster/Vampire.obj
+.PHONY : Humanoids/Hunter/Hunter.obj
 
 # target to build an object file
-Humanoids/Monster/Vampire.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Monster/Vampire.cpp.obj
-.PHONY : Humanoids/Monster/Vampire.cpp.obj
+Humanoids/Hunter/Hunter.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj
+.PHONY : Humanoids/Hunter/Hunter.cpp.obj
 
-Humanoids/Monster/Vampire.i: Humanoids/Monster/Vampire.cpp.i
+Humanoids/Hunter/Hunter.i: Humanoids/Hunter/Hunter.cpp.i
 
-.PHONY : Humanoids/Monster/Vampire.i
+.PHONY : Humanoids/Hunter/Hunter.i
 
 # target to preprocess a source file
-Humanoids/Monster/Vampire.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Monster/Vampire.cpp.i
-.PHONY : Humanoids/Monster/Vampire.cpp.i
+Humanoids/Hunter/Hunter.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.i
+.PHONY : Humanoids/Hunter/Hunter.cpp.i
 
-Humanoids/Monster/Vampire.s: Humanoids/Monster/Vampire.cpp.s
+Humanoids/Hunter/Hunter.s: Humanoids/Hunter/Hunter.cpp.s
 
-.PHONY : Humanoids/Monster/Vampire.s
+.PHONY : Humanoids/Hunter/Hunter.s
 
 # target to generate assembly for a file
-Humanoids/Monster/Vampire.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Monster/Vampire.cpp.s
-.PHONY : Humanoids/Monster/Vampire.cpp.s
+Humanoids/Hunter/Hunter.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.s
+.PHONY : Humanoids/Hunter/Hunter.cpp.s
 
-Humanoids/Slayer/Buffy.obj: Humanoids/Slayer/Buffy.cpp.obj
+Humanoids/Hunter/Monster/Vampire.obj: Humanoids/Hunter/Monster/Vampire.cpp.obj
 
-.PHONY : Humanoids/Slayer/Buffy.obj
+.PHONY : Humanoids/Hunter/Monster/Vampire.obj
 
 # target to build an object file
-Humanoids/Slayer/Buffy.cpp.obj:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.obj
-.PHONY : Humanoids/Slayer/Buffy.cpp.obj
+Humanoids/Hunter/Monster/Vampire.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Monster/Vampire.cpp.obj
+.PHONY : Humanoids/Hunter/Monster/Vampire.cpp.obj
 
-Humanoids/Slayer/Buffy.i: Humanoids/Slayer/Buffy.cpp.i
+Humanoids/Hunter/Monster/Vampire.i: Humanoids/Hunter/Monster/Vampire.cpp.i
 
-.PHONY : Humanoids/Slayer/Buffy.i
+.PHONY : Humanoids/Hunter/Monster/Vampire.i
 
 # target to preprocess a source file
-Humanoids/Slayer/Buffy.cpp.i:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.i
-.PHONY : Humanoids/Slayer/Buffy.cpp.i
+Humanoids/Hunter/Monster/Vampire.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Monster/Vampire.cpp.i
+.PHONY : Humanoids/Hunter/Monster/Vampire.cpp.i
 
-Humanoids/Slayer/Buffy.s: Humanoids/Slayer/Buffy.cpp.s
+Humanoids/Hunter/Monster/Vampire.s: Humanoids/Hunter/Monster/Vampire.cpp.s
 
-.PHONY : Humanoids/Slayer/Buffy.s
+.PHONY : Humanoids/Hunter/Monster/Vampire.s
 
 # target to generate assembly for a file
-Humanoids/Slayer/Buffy.cpp.s:
-	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Slayer/Buffy.cpp.s
-.PHONY : Humanoids/Slayer/Buffy.cpp.s
+Humanoids/Hunter/Monster/Vampire.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Monster/Vampire.cpp.s
+.PHONY : Humanoids/Hunter/Monster/Vampire.cpp.s
+
+Humanoids/Hunter/Slayer/Buffy.obj: Humanoids/Hunter/Slayer/Buffy.cpp.obj
+
+.PHONY : Humanoids/Hunter/Slayer/Buffy.obj
+
+# target to build an object file
+Humanoids/Hunter/Slayer/Buffy.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Slayer/Buffy.cpp.obj
+.PHONY : Humanoids/Hunter/Slayer/Buffy.cpp.obj
+
+Humanoids/Hunter/Slayer/Buffy.i: Humanoids/Hunter/Slayer/Buffy.cpp.i
+
+.PHONY : Humanoids/Hunter/Slayer/Buffy.i
+
+# target to preprocess a source file
+Humanoids/Hunter/Slayer/Buffy.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Slayer/Buffy.cpp.i
+.PHONY : Humanoids/Hunter/Slayer/Buffy.cpp.i
+
+Humanoids/Hunter/Slayer/Buffy.s: Humanoids/Hunter/Slayer/Buffy.cpp.s
+
+.PHONY : Humanoids/Hunter/Slayer/Buffy.s
+
+# target to generate assembly for a file
+Humanoids/Hunter/Slayer/Buffy.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Slayer/Buffy.cpp.s
+.PHONY : Humanoids/Hunter/Slayer/Buffy.cpp.s
 
 Humanoids/Victim/Lambda.obj: Humanoids/Victim/Lambda.cpp.obj
 
@@ -347,24 +455,36 @@ help:
 	@echo ... POO2_Buffy
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Action.obj
-	@echo ... Action.i
-	@echo ... Action.s
+	@echo ... Action/Action.obj
+	@echo ... Action/Action.i
+	@echo ... Action/Action.s
+	@echo ... Action/Kill.obj
+	@echo ... Action/Kill.i
+	@echo ... Action/Kill.s
+	@echo ... Action/Moving/Move.obj
+	@echo ... Action/Moving/Move.i
+	@echo ... Action/Moving/Move.s
+	@echo ... Action/Moving/RunFrom.obj
+	@echo ... Action/Moving/RunFrom.i
+	@echo ... Action/Moving/RunFrom.s
+	@echo ... Action/Moving/Wander.obj
+	@echo ... Action/Moving/Wander.i
+	@echo ... Action/Moving/Wander.s
 	@echo ... Field.obj
 	@echo ... Field.i
 	@echo ... Field.s
 	@echo ... Humanoids/Humanoid.obj
 	@echo ... Humanoids/Humanoid.i
 	@echo ... Humanoids/Humanoid.s
-	@echo ... Humanoids/Hunter.obj
-	@echo ... Humanoids/Hunter.i
-	@echo ... Humanoids/Hunter.s
-	@echo ... Humanoids/Monster/Vampire.obj
-	@echo ... Humanoids/Monster/Vampire.i
-	@echo ... Humanoids/Monster/Vampire.s
-	@echo ... Humanoids/Slayer/Buffy.obj
-	@echo ... Humanoids/Slayer/Buffy.i
-	@echo ... Humanoids/Slayer/Buffy.s
+	@echo ... Humanoids/Hunter/Hunter.obj
+	@echo ... Humanoids/Hunter/Hunter.i
+	@echo ... Humanoids/Hunter/Hunter.s
+	@echo ... Humanoids/Hunter/Monster/Vampire.obj
+	@echo ... Humanoids/Hunter/Monster/Vampire.i
+	@echo ... Humanoids/Hunter/Monster/Vampire.s
+	@echo ... Humanoids/Hunter/Slayer/Buffy.obj
+	@echo ... Humanoids/Hunter/Slayer/Buffy.i
+	@echo ... Humanoids/Hunter/Slayer/Buffy.s
 	@echo ... Humanoids/Victim/Lambda.obj
 	@echo ... Humanoids/Victim/Lambda.i
 	@echo ... Humanoids/Victim/Lambda.s

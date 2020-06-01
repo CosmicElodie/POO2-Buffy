@@ -12,9 +12,9 @@
 
 class Lambda : public Humanoid {
 private :
-    const char REPRESENTATION = 'H';
-    const size_t SPEED = 1;
-    const char ALIVE = true;
+    static const char REPRESENTATION = 'H';
+    static const size_t SPEED = 1;
+    static const char ALIVE = true;
 
 
 public :

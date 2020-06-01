@@ -6,55 +6,31 @@
 
 #IncludeRegexTransform: 
 
-../Humanoids/Humanoid.h
-cstdio
--
-ostream
--
+../Action/Action.h
 
-../Humanoids/Hunter.h
-Humanoid.h
-../Humanoids/Humanoid.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Kill.cpp
+Kill.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Kill.h
 
-../Humanoids/Monster/Vampire.h
-../Hunter.h
-../Humanoids/Hunter.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Kill.h
 
-../Humanoids/Slayer/Buffy.h
-../Hunter.h
-../Humanoids/Hunter.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Move.cpp
+Move.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Move.h
 
-../Humanoids/Victim/Lambda.h
-../Humanoid.h
-../Humanoids/Humanoid.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Move.h
 
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.cpp
-list
--
-iostream
--
-iomanip
--
-Humanoids/Monster/Vampire.h
--
-Humanoids/Victim/Lambda.h
--
-Humanoids/Slayer/Buffy.h
--
-Field.h
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/RunFrom.cpp
+RunFrom.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/RunFrom.h
 
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.h
-list
--
-iostream
--
-Humanoids/Humanoid.h
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Humanoid.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/RunFrom.h
+Action/Action.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Action/Action.h
 
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Humanoid.h
-cstdio
--
-ostream
--
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Wander.cpp
+Wander.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Wander.h
+
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Wander.h
 

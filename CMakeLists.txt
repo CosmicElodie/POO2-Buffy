@@ -10,18 +10,18 @@ include_directories(Humanoids/Slayer)
 include_directories(Humanoids/Victim)
 
 add_executable(POO2_Buffy
-    Humanoids/Monster/Vampire.cpp
-    Humanoids/Monster/Vampire.h
-    Humanoids/Slayer/Buffy.cpp
-    Humanoids/Slayer/Buffy.h
+    Humanoids/Hunter/Monster/Vampire.cpp
+    Humanoids/Hunter/Monster/Vampire.h
+    Humanoids/Hunter/Slayer/Buffy.cpp
+    Humanoids/Hunter/Slayer/Buffy.h
         Humanoids/Victim/Lambda.cpp
     Humanoids/Victim/Lambda.h
     Humanoids/Humanoid.cpp
     Humanoids/Humanoid.h
-    Humanoids/Hunter.cpp
-    Humanoids/Hunter.h
-    Action.cpp
-    Action.h
+        Humanoids/Hunter/Hunter.cpp
+        Humanoids/Hunter/Hunter.h
+        Action/Action.cpp
+        Action/Action.h
     Field.cpp
     Field.h
-    main.cpp)
+    main.cpp Action/Moving/RunFrom.cpp Action/Moving/RunFrom.h Action/Kill.cpp Action/Kill.h Action/Moving/Move.cpp Action/Moving/Move.h Action/Moving/Wander.cpp Action/Moving/Wander.h)

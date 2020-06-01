@@ -8,9 +8,9 @@
 #include <list>
 #include <iostream>
 #include <iomanip>
-#include <Humanoids/Monster/Vampire.h>
+#include <Humanoids/Hunter/Monster/Vampire.h>
 #include <Humanoids/Victim/Lambda.h>
-#include <Humanoids/Slayer/Buffy.h>
+#include <Humanoids/Hunter/Slayer/Buffy.h>
 #include "Field.h"
 
 const char VAMPIRE_REPRESENTATION = 'V';
@@ -39,7 +39,9 @@ Field::Field(size_t width, size_t height, size_t nbVampires, size_t nbHumans) : 
 
 void Field::initializePeople(const char representation, size_t number)
 {
+    //On initialise la seed selon le temps actuel, pour avoir une valeur différente à chaque fois.
     //srand( (unsigned)time(NULL) );
+
     for(int n = 0; n < number; ++n)
     {
         switch(representation)
