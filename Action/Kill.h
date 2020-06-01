@@ -9,7 +9,9 @@
 #define POO2_BUFFY_KILL_H
 
 
-class Kill {
+#include "Action.h"
+
+class Kill : public Action {
 
 };
 

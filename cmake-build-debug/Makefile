@@ -176,6 +176,33 @@ Action/Kill.cpp.s:
 	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.s
 .PHONY : Action/Kill.cpp.s
 
+Action/Moving/Hunt.obj: Action/Moving/Hunt.cpp.obj
+
+.PHONY : Action/Moving/Hunt.obj
+
+# target to build an object file
+Action/Moving/Hunt.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Hunt.cpp.obj
+.PHONY : Action/Moving/Hunt.cpp.obj
+
+Action/Moving/Hunt.i: Action/Moving/Hunt.cpp.i
+
+.PHONY : Action/Moving/Hunt.i
+
+# target to preprocess a source file
+Action/Moving/Hunt.cpp.i:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Hunt.cpp.i
+.PHONY : Action/Moving/Hunt.cpp.i
+
+Action/Moving/Hunt.s: Action/Moving/Hunt.cpp.s
+
+.PHONY : Action/Moving/Hunt.s
+
+# target to generate assembly for a file
+Action/Moving/Hunt.cpp.s:
+	$(MAKE) -f CMakeFiles\POO2_Buffy.dir\build.make CMakeFiles/POO2_Buffy.dir/Action/Moving/Hunt.cpp.s
+.PHONY : Action/Moving/Hunt.cpp.s
+
 Action/Moving/Sleep.obj: Action/Moving/Sleep.cpp.obj
 
 .PHONY : Action/Moving/Sleep.obj
@@ -434,6 +461,9 @@ help:
 	@echo ... Action/Kill.obj
 	@echo ... Action/Kill.i
 	@echo ... Action/Kill.s
+	@echo ... Action/Moving/Hunt.obj
+	@echo ... Action/Moving/Hunt.i
+	@echo ... Action/Moving/Hunt.s
 	@echo ... Action/Moving/Sleep.obj
 	@echo ... Action/Moving/Sleep.i
 	@echo ... Action/Moving/Sleep.s

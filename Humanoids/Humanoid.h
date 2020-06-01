@@ -11,8 +11,8 @@
 
 #include <cstdio>
 #include <ostream>
+#include "Action/Action.h"
 
-class Action;
 class Field;
 
 class Humanoid {
@@ -32,8 +32,8 @@ private :
     //la vitesse de déplacement d'un humanoid
     size_t speed;
 
-    //l'action en cours de l'humanoid
-    Action* action;
+    //la prochaine action de l'humanoid
+    Action* nextAction;
 
     //la position de l'humanoide sur le terrain.
     size_t positionX, positionY;
@@ -87,6 +87,9 @@ public:
 
     size_t getPositionY();
 
+    size_t getSpeed() const;
+
+    void setNextAction(Action *nextAction);
 };
 
 

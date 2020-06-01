@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/POO2_Buffy.dir/Action/Action.cpp.obj"
   "CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj"
+  "CMakeFiles/POO2_Buffy.dir/Action/Moving/Hunt.cpp.obj"
   "CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.obj"
   "CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj"
   "CMakeFiles/POO2_Buffy.dir/Field.cpp.obj"

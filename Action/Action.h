@@ -23,11 +23,11 @@ public:
      */
     Action(size_t speed);
 
-    /**
+     /**
      * Permet d'exucéuter l'action courant en influant sur l'environnement.
      * @param f : l'environnement courant.
      */
-    void execute(Field &f);
+     virtual void execute(Field &f) = 0;
 
 };
 

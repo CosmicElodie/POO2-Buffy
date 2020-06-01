@@ -108,6 +108,12 @@
 		<Unit filename="C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Kill.h">
 			<Option target="POO2_Buffy"/>
 		</Unit>
+		<Unit filename="C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Hunt.cpp">
+			<Option target="POO2_Buffy"/>
+		</Unit>
+		<Unit filename="C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Hunt.h">
+			<Option target="POO2_Buffy"/>
+		</Unit>
 		<Unit filename="C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Sleep.cpp">
 			<Option target="POO2_Buffy"/>
 		</Unit>

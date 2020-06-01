@@ -18,7 +18,7 @@ private:
     //TODO voir comment faire pour multiples proies
 
 public:
-//ALIVE, REPRESENTATION, x, y, SPEED, ENNEMI
+
     Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed);
 
     virtual void setAction(Field& field);
@@ -31,9 +31,15 @@ public:
      * @param preyPositionY : la composante Y de la position de la proie
      * @return : la distance (norme mathématique) entre le chasseur et la proie.
      */
-    float calculDistance(int hunterPositionX, int hunterPositionY, int preyPositionX, int preyPositionY);
+    float calculateDistance(int hunterPositionX, int hunterPositionY, int preyPositionX, int preyPositionY);
 
-
+    /**
+     * Trouve la proie la plus proche du chasseur.
+     * @param hunter : le chasseur
+     * @param type : le type de proie(s) recherchée
+     * @param humanoids : la liste des humanoïdes présents sur le board.
+     * @return la proie la plus proche du chasseur.
+     */
     const Humanoid * findClosestPray(Hunter & hunter, const std::type_info* type, const std::list<Humanoid*>* humanoids);
 
 };

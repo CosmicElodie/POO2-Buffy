@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../Humanoids/Humanoid.h
-cstdio
--
-ostream
+../Action/Action.h
+cstdlib
 -
 
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Hunter.cpp
-cstring
--
-Hunter.h
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Hunter.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Hunt.cpp
+Hunt.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Hunt.h
 
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Hunter.h
-cmath
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Hunt.h
+Action/Action.h
 -
-list
--
-Humanoid.h
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Humanoid.h
 
