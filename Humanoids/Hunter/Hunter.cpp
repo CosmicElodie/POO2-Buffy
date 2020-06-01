@@ -15,6 +15,26 @@ void Hunter::setAction(Field &field) {
 
 }
 
-void Hunter::move(Field &field) {
-    Humanoid::move(field);
+float Hunter::calculDistance(int hunterPositionX, int hunterPositionY, int preyPositionX, int preyPositionY){
+    return sqrt(pow(hunterPositionX - hunterPositionY, 2) + pow(preyPositionX - preyPositionY, 2));
+}
+
+const Humanoid *Hunter::findClosestPray(Hunter & hunter, const std::type_info *type, const std::list<Humanoid *> *humanoids) {
+    float distance = 0, newDistance = 0;
+    Humanoid * pray = nullptr;
+
+    for (auto humanoidIt = humanoids->begin(); humanoidIt != humanoids->end(); humanoidIt++ ){
+        newDistance = calculDistance(hunter.getPositionX(), hunter.getPositionY(),
+                                     (*humanoidIt)->getPositionX(), (*humanoidIt)->getPositionY());
+        if( (distance > newDistance) && typeid( *(*humanoidIt) ) == *type)
+        {
+            distance = newDistance;
+            pray = (*humanoidIt);
+        }
+    }
+    return pray;
+
+
+
+    return nullptr;
 }

@@ -14,8 +14,8 @@ add_executable(POO2_Buffy
     Humanoids/Hunter/Monster/Vampire.h
     Humanoids/Hunter/Slayer/Buffy.cpp
     Humanoids/Hunter/Slayer/Buffy.h
-        Humanoids/Victim/Lambda.cpp
-    Humanoids/Victim/Lambda.h
+        Humanoids/Victim/LambdaHuman.cpp
+        Humanoids/Victim/LambdaHuman.h
     Humanoids/Humanoid.cpp
     Humanoids/Humanoid.h
         Humanoids/Hunter/Hunter.cpp
@@ -24,4 +24,4 @@ add_executable(POO2_Buffy
         Action/Action.h
     Field.cpp
     Field.h
-    main.cpp Action/Moving/RunFrom.cpp Action/Moving/RunFrom.h Action/Kill.cpp Action/Kill.h Action/Moving/Move.cpp Action/Moving/Move.h Action/Moving/Wander.cpp Action/Moving/Wander.h)
+    main.cpp Action/Kill.cpp Action/Kill.h Action/Moving/Wander.cpp Action/Moving/Wander.h Action/Moving/Sleep.cpp Action/Moving/Sleep.h)

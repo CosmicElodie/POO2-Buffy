@@ -10,6 +10,9 @@
 
 
 class Wander {
+private :
+
+public :
 
 };
 

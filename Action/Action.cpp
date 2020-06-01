@@ -6,3 +6,7 @@
 */
 
 #include "Action.h"
+
+Action::Action(size_t speed) :speed(speed) {
+
+}

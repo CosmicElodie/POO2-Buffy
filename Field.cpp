@@ -9,7 +9,7 @@
 #include <iostream>
 #include <iomanip>
 #include <Humanoids/Hunter/Monster/Vampire.h>
-#include <Humanoids/Victim/Lambda.h>
+#include <Humanoids/Victim/LambdaHuman.h>
 #include <Humanoids/Hunter/Slayer/Buffy.h>
 #include "Field.h"
 
@@ -46,7 +46,7 @@ void Field::initializePeople(const char representation, size_t number)
     {
         switch(representation)
         {
-            case HUMAN_REPRESENTATION : humanoids.push_back(new Lambda(rand() % width, rand() % height));
+            case HUMAN_REPRESENTATION : humanoids.push_back(new LambdaHuman(rand() % width, rand() % height));
                 break;
             case VAMPIRE_REPRESENTATION :
                 humanoids.push_back(new Vampire(rand() % width, rand() % height));

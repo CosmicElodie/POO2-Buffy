@@ -84,19 +84,19 @@ CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Slayer/Buffy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Slayer/Buffy.cpp.s"
 	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Hunter\Slayer\Buffy.cpp" -o CMakeFiles\POO2_Buffy.dir\Humanoids\Hunter\Slayer\Buffy.cpp.s
 
-CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: CMakeFiles/POO2_Buffy.dir/flags.make
-CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: CMakeFiles/POO2_Buffy.dir/includes_CXX.rsp
-CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj: ../Humanoids/Victim/Lambda.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy.dir\Humanoids\Victim\Lambda.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Lambda.cpp"
+CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.obj: CMakeFiles/POO2_Buffy.dir/flags.make
+CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.obj: CMakeFiles/POO2_Buffy.dir/includes_CXX.rsp
+CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.obj: ../Humanoids/Victim/LambdaHuman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.obj"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy.dir\Humanoids\Victim\LambdaHuman.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\LambdaHuman.cpp"
 
-CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.i"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Lambda.cpp" > CMakeFiles\POO2_Buffy.dir\Humanoids\Victim\Lambda.cpp.i
+CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.i"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\LambdaHuman.cpp" > CMakeFiles\POO2_Buffy.dir\Humanoids\Victim\LambdaHuman.cpp.i
 
-CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.s"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\Lambda.cpp" -o CMakeFiles\POO2_Buffy.dir\Humanoids\Victim\Lambda.cpp.s
+CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.s"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Humanoids\Victim\LambdaHuman.cpp" -o CMakeFiles\POO2_Buffy.dir\Humanoids\Victim\LambdaHuman.cpp.s
 
 CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.obj: CMakeFiles/POO2_Buffy.dir/flags.make
 CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.obj: CMakeFiles/POO2_Buffy.dir/includes_CXX.rsp
@@ -168,24 +168,10 @@ CMakeFiles/POO2_Buffy.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/main.cpp.s"
 	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\main.cpp" -o CMakeFiles\POO2_Buffy.dir\main.cpp.s
 
-CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.obj: CMakeFiles/POO2_Buffy.dir/flags.make
-CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.obj: CMakeFiles/POO2_Buffy.dir/includes_CXX.rsp
-CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.obj: ../Action/Moving/RunFrom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.obj"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy.dir\Action\Moving\RunFrom.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\RunFrom.cpp"
-
-CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.i"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\RunFrom.cpp" > CMakeFiles\POO2_Buffy.dir\Action\Moving\RunFrom.cpp.i
-
-CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.s"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\RunFrom.cpp" -o CMakeFiles\POO2_Buffy.dir\Action\Moving\RunFrom.cpp.s
-
 CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj: CMakeFiles/POO2_Buffy.dir/flags.make
 CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj: CMakeFiles/POO2_Buffy.dir/includes_CXX.rsp
 CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj: ../Action/Kill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj"
 	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy.dir\Action\Kill.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Kill.cpp"
 
 CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.i: cmake_force
@@ -196,24 +182,10 @@ CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.s"
 	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Kill.cpp" -o CMakeFiles\POO2_Buffy.dir\Action\Kill.cpp.s
 
-CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.obj: CMakeFiles/POO2_Buffy.dir/flags.make
-CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.obj: CMakeFiles/POO2_Buffy.dir/includes_CXX.rsp
-CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.obj: ../Action/Moving/Move.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.obj"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy.dir\Action\Moving\Move.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\Move.cpp"
-
-CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.i"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\Move.cpp" > CMakeFiles\POO2_Buffy.dir\Action\Moving\Move.cpp.i
-
-CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.s"
-	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\Move.cpp" -o CMakeFiles\POO2_Buffy.dir\Action\Moving\Move.cpp.s
-
 CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj: CMakeFiles/POO2_Buffy.dir/flags.make
 CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj: CMakeFiles/POO2_Buffy.dir/includes_CXX.rsp
 CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj: ../Action/Moving/Wander.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj"
 	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy.dir\Action\Moving\Wander.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\Wander.cpp"
 
 CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.i: cmake_force
@@ -224,41 +196,53 @@ CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.s"
 	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\Wander.cpp" -o CMakeFiles\POO2_Buffy.dir\Action\Moving\Wander.cpp.s
 
+CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.obj: CMakeFiles/POO2_Buffy.dir/flags.make
+CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.obj: CMakeFiles/POO2_Buffy.dir/includes_CXX.rsp
+CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.obj: ../Action/Moving/Sleep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.obj"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO2_Buffy.dir\Action\Moving\Sleep.cpp.obj -c "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\Sleep.cpp"
+
+CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.i"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\Sleep.cpp" > CMakeFiles\POO2_Buffy.dir\Action\Moving\Sleep.cpp.i
+
+CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.s"
+	C:\PROGRA~1\HASKEL~1\847A5C~1.3\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\Action\Moving\Sleep.cpp" -o CMakeFiles\POO2_Buffy.dir\Action\Moving\Sleep.cpp.s
+
 # Object files for target POO2_Buffy
 POO2_Buffy_OBJECTS = \
 "CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Monster/Vampire.cpp.obj" \
 "CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Slayer/Buffy.cpp.obj" \
-"CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj" \
+"CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.obj" \
 "CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.obj" \
 "CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj" \
 "CMakeFiles/POO2_Buffy.dir/Action/Action.cpp.obj" \
 "CMakeFiles/POO2_Buffy.dir/Field.cpp.obj" \
 "CMakeFiles/POO2_Buffy.dir/main.cpp.obj" \
-"CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.obj" \
 "CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj" \
-"CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.obj" \
-"CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj"
+"CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj" \
+"CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.obj"
 
 # External object files for target POO2_Buffy
 POO2_Buffy_EXTERNAL_OBJECTS =
 
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Monster/Vampire.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Slayer/Buffy.cpp.obj
-POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/Lambda.cpp.obj
+POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Humanoids/Victim/LambdaHuman.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Humanoids/Humanoid.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Humanoids/Hunter/Hunter.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Action/Action.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Field.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/main.cpp.obj
-POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Action/Moving/RunFrom.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Action/Kill.cpp.obj
-POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Action/Moving/Move.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Action/Moving/Wander.cpp.obj
+POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/Action/Moving/Sleep.cpp.obj
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/build.make
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/linklibs.rsp
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/objects1.rsp
 POO2_Buffy.exe: CMakeFiles/POO2_Buffy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable POO2_Buffy.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Elodie\Desktop\SCHOOL\SEMESTRE 4\POO2\Laboratoires\POO2-Buffy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable POO2_Buffy.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\POO2_Buffy.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

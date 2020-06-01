@@ -14,9 +14,15 @@ class Field;
 class Action {
 
 private:
+    size_t speed;
 
 public:
-    
+    /**
+     * Réalise une action selon la vitesse donnée
+     * @param speed : la vitesse de déplacement d'un humanoïde.
+     */
+    Action(size_t speed);
+
     /**
      * Permet d'exucéuter l'action courant en influant sur l'environnement.
      * @param f : l'environnement courant.

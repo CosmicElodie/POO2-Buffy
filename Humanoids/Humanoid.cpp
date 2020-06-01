@@ -8,7 +8,7 @@
 #include "Humanoid.h"
 
 Humanoid::Humanoid(bool alive, const char representation, size_t x, size_t y, size_t speed) :
-        alive(alive), representation(representation), positionX(x), positionY(y), speed(speed) {}
+        alive(alive), representation(representation), positionX(x), positionY(y), nextPositionX(x), nextPositionY(y), speed(speed) {}
 
 Humanoid &Humanoid::operator=(const Humanoid &humanoid) {
     if (*this != humanoid) {
@@ -39,11 +39,8 @@ const bool Humanoid::isAlive() const {
 }
 
 void Humanoid::executeAction(Field &field) {
-    //TODO
-}
-
-void Humanoid::move(Field &field) {
-    //TODO
+    positionX = nextPositionX;
+    positionY = nextPositionY;
 }
 
 char Humanoid::getRepresentation() const {

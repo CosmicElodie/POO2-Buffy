@@ -2,7 +2,7 @@
 * Laboratoire   :
 * Date          :
 * Élèves        : Lagier Elodie
-* Fichier       : Lambda.h
+* Fichier       : LambdaHuman.h
 */
 
 #ifndef POO2_BUFFY_CRULL_LAGIER_LAMBDA_H
@@ -10,7 +10,7 @@
 
 #include "../Humanoid.h"
 
-class Lambda : public Humanoid {
+class LambdaHuman : public Humanoid {
 private :
     static const char REPRESENTATION = 'H';
     static const size_t SPEED = 1;
@@ -18,11 +18,10 @@ private :
 
 
 public :
-    Lambda(size_t x, size_t y);
+    LambdaHuman(size_t x, size_t y);
 
     void setAction(Field& field);
 
-    virtual void move(Field &field);
 
 };
 
