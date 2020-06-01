@@ -15,12 +15,25 @@
 class Hunter : public Humanoid {
 
 private:
-    //TODO voir comment faire pour multiples proies
+    //référence sur la proie du chasseur
+    Humanoid * prey;
 
 public:
 
+    /**
+     * Permet de construire un chasseur selon les données indiquées.
+     * @param alive : true si vivant (Buffy / LambdaHuman), false sinon (Vampire).
+     * @param representation : la lettre qui représente le hunter. ('B' ou 'V' en l'occurence).
+     * @param x : la composante de sa position x
+     * @param y : la composante de sa position y
+     * @param speed : sa vitesse de déplacement (aka le nombre de cases par tout)
+     */
     Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed);
 
+    /**
+     * Permet d'établir la prochaine action.
+     * @param field : le terrain sur lequel se déroule l'action.
+     */
     virtual void setAction(Field& field);
 
     /**

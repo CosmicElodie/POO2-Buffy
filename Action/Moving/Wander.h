@@ -9,10 +9,20 @@
 #define POO2_BUFFY_WANDER_H
 
 
-class Wander {
+#include <cstdlib>
+#include <Action/Action.h>
+
+class Wander : public Action{
 private :
+    size_t speed;
 
 public :
+    /**
+     * Cette action permet de se déplacer aléatoirement sur le plateau, selon une vitesse donnée.
+     */
+    Wander(size_t speed);
+
+    virtual void execute(Field &f);
 
 };
 

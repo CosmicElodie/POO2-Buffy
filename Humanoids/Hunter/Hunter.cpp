@@ -6,16 +6,26 @@
 */
 
 #include <Action/Moving/Hunt.h>
+#include <Action/Moving/Wander.h>
 #include "Hunter.h"
 
 Hunter::Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed) :
-Humanoid(alive, representation, x, y, speed){}
+Humanoid(alive, representation, x, y, speed){
+    prey = nullptr;
 
-void Hunter::setAction(Field &field) {
+}
+
+void Hunter::setAction(Field & field) {
     //TODO : tester si des "ennemis" sont présents dans la liste.
-    //TODO : si oui, alors hunt. Sinon alors wander/sleep.
-    Hunt * hunt = new Hunt(this->getSpeed());
-    this->setNextAction(hunt);
+    //TODO : si oui, alors on définit une prey et hunt. Sinon alors wander/sleep.
+
+    if(true) //à remplacer par "trouver proie"
+    {
+        Hunt * hunt = new Hunt(this->getSpeed(), this, prey);
+        this->setNextAction(hunt);
+    } else{
+        Wander * wander = new Wander(this->getSpeed());
+    }
 }
 
 float Hunter::calculateDistance(int hunterPositionX, int hunterPositionY, int preyPositionX, int preyPositionY){

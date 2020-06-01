@@ -8,9 +8,8 @@
 #include "Hunt.h"
 
 void Hunt::execute(Field & f) {
-
+    //TODO : recherche
 }
 
-Hunt::Hunt(size_t speed) : Action(speed) {
-
+Hunt::Hunt(size_t speed, Hunter * hunter, Humanoid * prey) : hunter(hunter), prey(prey), Action(speed) {
 }

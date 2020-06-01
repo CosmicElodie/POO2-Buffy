@@ -9,7 +9,8 @@
 #define POO2_BUFFY_CRULL_LAGIER_ACTION_H
 
 #include <cstdlib>
-
+class Hunter;
+class Humanoid;
 class Field;
 class Action {
 
