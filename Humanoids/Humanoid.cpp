@@ -62,7 +62,16 @@ size_t Humanoid::getSpeed() const {
     return speed;
 }
 
+/*
 void Humanoid::setNextAction(Action *nextAction) {
     Humanoid::nextAction = nextAction;
+}*/
+
+void Humanoid::setAlive(bool alive) {
+    Humanoid::alive = alive;
+}
+
+void Humanoid::setNextAction(Action *nextAction) {
+    this->nextAction = nextAction;
 }
 

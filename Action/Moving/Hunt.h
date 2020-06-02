@@ -8,7 +8,6 @@
 #ifndef POO2_BUFFY_HUNT_H
 #define POO2_BUFFY_HUNT_H
 
-
 #include <Action/Action.h>
 
 class Hunt : public Action {

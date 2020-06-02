@@ -8,8 +8,14 @@
 #ifndef POO2_BUFFY_SLEEP_H
 #define POO2_BUFFY_SLEEP_H
 
+#include <Action/Action.h>
 
-class Sleep {
+class Sleep : public Action {
+private:
+
+public:
+    Sleep();
+    void execute(Field &f);
 
 };
 

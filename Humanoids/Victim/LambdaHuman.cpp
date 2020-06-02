@@ -14,3 +14,7 @@ LambdaHuman::LambdaHuman(size_t x, size_t y) : Humanoid(ALIVE, REPRESENTATION, x
 void LambdaHuman::setAction(Field &field) {
 
 }
+
+void LambdaHuman::setNextAction(Action *nextAction) {
+
+}

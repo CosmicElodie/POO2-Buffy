@@ -13,6 +13,23 @@
 
 class Kill : public Action {
 
+private:
+    //Référence sur le chasseur
+    Hunter *hunter;
+
+    //Référence sur la proie
+    Humanoid *prey;
+
+public:
+    /**
+     * Permet à un chasseur de tuer une proie
+     * @param speed : la vitesse du chasseur
+     * @param hunter : le chasseur
+     * @param prey : la proie
+     */
+    Kill(size_t speed, Hunter *hunter, Humanoid *prey);
+    virtual void execute(Field &f);
+
 };
 
 

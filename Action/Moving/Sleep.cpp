@@ -6,3 +6,7 @@
 */
 
 #include "Sleep.h"
+
+Sleep::Sleep() : Action(0) { }
+
+void Sleep::execute(Field &f) { }

@@ -9,8 +9,14 @@
 ../Action/Action.h
 cstdlib
 -
+Humanoid.h
+../Action/Humanoid.h
 
 ../Action/Moving/Hunt.h
+Action/Action.h
+-
+
+../Action/Moving/Sleep.h
 Action/Action.h
 -
 
@@ -28,11 +34,23 @@ ostream
 Action/Action.h
 ../Humanoids/Action/Action.h
 
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Hunt.cpp
-Hunt.h
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Hunt.h
+../Humanoids/Hunter/Hunter.h
+cmath
+-
+list
+-
+Humanoid.h
+../Humanoids/Hunter/Humanoid.h
 
-C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Hunt.h
+../Humanoids/Victim/LambdaHuman.h
+../Humanoid.h
+../Humanoids/Humanoid.h
+
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Sleep.cpp
+Sleep.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Sleep.h
+
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Sleep.h
 Action/Action.h
 -
 
@@ -41,8 +59,14 @@ Action/Moving/Hunt.h
 -
 Action/Moving/Wander.h
 -
+Action/Moving/Sleep.h
+-
 Hunter.h
 C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Hunter.h
+./Monster/Vampire.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Monster/Vampire.h
+./Victim/LambdaHuman.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Victim/LambdaHuman.h
 
 C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Hunter.h
 cmath
@@ -51,4 +75,8 @@ list
 -
 Humanoid.h
 C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Humanoid.h
+
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Monster/Vampire.h
+Humanoids/Hunter/Hunter.h
+C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Humanoids/Hunter/Monster/Humanoids/Hunter/Hunter.h
 

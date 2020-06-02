@@ -14,6 +14,7 @@
 #include "Action/Action.h"
 
 class Field;
+class Action;
 
 class Humanoid {
     friend std::ostream & operator << (std::ostream & os, const Humanoid & humanoid)
@@ -42,8 +43,6 @@ private :
     size_t nextPositionX, nextPositionY;
 
 public:
-    char getRepresentation() const;
-
     /**
      * Créé un humanoid avec les diverses informations ci-dessous..
      * @param alive : est-il en vie ou non (si non -> vampire ou autre monstre)
@@ -79,6 +78,7 @@ public:
      * @param field : le terrain sur lequel se déroule les actions
      */
     virtual void setAction(Field& field) = 0;
+    void setNextAction(Action *nextAction);
 
     bool operator==(const Humanoid &humanoid) const;
     bool operator!=(const Humanoid &humanoid) const;
@@ -89,7 +89,9 @@ public:
 
     size_t getSpeed() const;
 
-    void setNextAction(Action *nextAction);
+    void setAlive(bool alive);
+
+    char getRepresentation() const;
 };
 
 

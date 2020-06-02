@@ -34,7 +34,7 @@ public:
      * Permet d'établir la prochaine action.
      * @param field : le terrain sur lequel se déroule l'action.
      */
-    virtual void setAction(Field& field);
+    void setAction(Field& field) override;
 
     /**
      * Calcule la distance qui sépare un chasseur d'une proie.
@@ -44,16 +44,16 @@ public:
      * @param preyPositionY : la composante Y de la position de la proie
      * @return : la distance (norme mathématique) entre le chasseur et la proie.
      */
-    float calculateDistance(int hunterPositionX, int hunterPositionY, int preyPositionX, int preyPositionY);
+    float calculateDistance(size_t hunterPositionX, size_t hunterPositionY, size_t preyPositionX, size_t preyPositionY);
 
     /**
      * Trouve la proie la plus proche du chasseur.
      * @param hunter : le chasseur
-     * @param type : le type de proie(s) recherchée
+     * @param preyType : le preyType de proie(s) recherchée
      * @param humanoids : la liste des humanoïdes présents sur le board.
      * @return la proie la plus proche du chasseur.
      */
-    const Humanoid * findClosestPray(Hunter & hunter, const std::type_info* type, const std::list<Humanoid*>* humanoids);
+    const Humanoid * findClosestPray(Hunter & hunter, const std::type_info* preyType, std::list<Humanoid*>* humanoids);
 
 };
 

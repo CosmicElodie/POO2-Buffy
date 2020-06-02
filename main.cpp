@@ -1,5 +1,7 @@
 #include <iostream>
 #include "Field.h"
+#include "Hunter/Monster/Vampire.h"
+#include "Hunter/Slayer/Buffy.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;

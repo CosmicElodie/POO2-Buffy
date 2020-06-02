@@ -20,7 +20,9 @@ private :
 public :
     LambdaHuman(size_t x, size_t y);
 
-    void setAction(Field& field);
+    virtual void setAction(Field& field);
+
+    virtual void setNextAction(Action *nextAction);
 
 
 };
