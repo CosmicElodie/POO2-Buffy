@@ -7,4 +7,5 @@
 
 #include "Action.h"
 
-Action::Action(size_t speed) :speed(speed) { }
+Action::Action(Humanoid * humanoid) : humanoid(humanoid) { }
+

@@ -24,4 +24,4 @@ add_executable(POO2_Buffy
         Action/Action.h
     Field.cpp
     Field.h
-    main.cpp Action/Kill.cpp Action/Kill.h Action/Moving/Wander.cpp Action/Moving/Wander.h Action/Moving/Sleep.cpp Action/Moving/Sleep.h Action/Moving/Hunt.cpp Action/Moving/Hunt.h)
+    main.cpp Action/Kill.cpp Action/Kill.h Action/Moving/Wander.cpp Action/Moving/Wander.h Action/Moving/Sleep.cpp Action/Moving/Sleep.h Action/Moving/Hunt.cpp Action/Moving/Hunt.h Action/Utils.h)

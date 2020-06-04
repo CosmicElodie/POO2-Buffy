@@ -9,20 +9,22 @@
 #define POO2_BUFFY_CRULL_LAGIER_ACTION_H
 
 #include <cstdlib>
-#include "Humanoid.h"
-class Hunter;
+#include "Field.h"
 class Field;
+class Humanoid;
+
+
 class Action {
 
-private:
-    size_t speed;
-
+protected:
+    Humanoid * humanoid;
 public:
+
     /**
-     * Réalise une action selon la vitesse donnée
-     * @param speed : la vitesse de déplacement d'un humanoïde.
+     * Réalise une action fait par l'humain passé en paramètre.
+     * @param humanoid : l'humain qui performe l'action.
      */
-    Action(size_t speed);
+    explicit Action(Humanoid * humanoid);
 
      /**
      * Permet d'exucéuter l'action courant en influant sur l'environnement.
@@ -31,6 +33,5 @@ public:
      virtual void execute(Field &f) = 0;
 
 };
-
 
 #endif //POO2_BUFFY_CRULL_LAGIER_ACTION_H

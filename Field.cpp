@@ -19,22 +19,14 @@ const char BUFFY_REPRESENTATION = 'B';
 
 Field::Field(size_t width, size_t height, size_t nbVampires, size_t nbHumans) : width(width), height(height)
 {
-    //on commence par initialiser le board.
-    initializeBoard(width, height);
+    //on créé les humains.
+    initializePeople(HUMAN_REPRESENTATION, nbHumans);
 
     //on créé les vampires.
     initializePeople(VAMPIRE_REPRESENTATION, nbVampires);
 
-    //on créé les humains.
-    initializePeople(HUMAN_REPRESENTATION, nbHumans);
-
     //on créé Buffy.
     initializePeople(BUFFY_REPRESENTATION, 1);
-
-    //on placeHumanoids les humanoïdes sur le board.
-    for(Humanoid* h : humanoids) {
-        this->placeHumanoids(h->getPositionX(), h->getPositionY(), h->getRepresentation());
-    }
 }
 
 void Field::initializePeople(const char representation, size_t number)
@@ -57,18 +49,6 @@ void Field::initializePeople(const char representation, size_t number)
         }
     }
 
-}
-
-void Field::initializeBoard(size_t width, size_t height)
-{
-    field = new char*[width];
-
-    for (int w_unit = 0; w_unit < width; ++w_unit) {
-        field[w_unit] = new char[height];
-        for (int h_unit = 0; h_unit < height; ++h_unit) {
-            field[w_unit][h_unit] = ' ';
-        }
-    }
 }
 
 int Field::nextTurn()
@@ -106,15 +86,36 @@ const std::list<Humanoid *> &Field::getHumanoids() const {
     return humanoids;
 }
 
-void Field::placeHumanoids(size_t x, size_t y, char representation) {
-    field[x][y] = representation;
-}
-
-void Field::printLine(std::ostream & os, Field & field) {
+void Field::printLine(Field & field) {
     size_t w = field.getWidth() + 1;
-    os << SEPARATOR_2 ;
-    os << std::setw(w) << std::setfill(SEPARATOR_3);
-    os << SEPARATOR_2 << std::endl;
+    std::cout << SEPARATOR_2 ;
+    std::cout  << std::setw(w) << std::setfill(SEPARATOR_3);
+    std::cout  << SEPARATOR_2 << std::endl;
 }
 
+void Field::printBoard() {
+    //printLine(os, f);
+    bool humand_found = false;
+    for (size_t row = 0; row < width; ++row) {
+        std::cout << SEPARATOR_1;
+        for (size_t column = 0; column < height; ++column) {
+            for(Humanoid * humanoid : humanoids) {
+                if(humanoid->getPositionX() == row && humanoid->getPositionY() == column)
+                {
+                    humand_found = true;
+                    std::cout << humanoid->getRepresentation();
+                    break;
+                }
+            }
+            if(!humand_found)
+            {
+                std::cout << " ";
+
+            }
+            humand_found = false;
+        }
+        std::cout << SEPARATOR_1 << std::endl;
+    }
+    //printLine(os, f);
+}
 

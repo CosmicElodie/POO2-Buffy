@@ -7,10 +7,8 @@
 
 #include "Kill.h"
 
-Kill::Kill(size_t speed, Hunter *hunter, Humanoid *prey) : hunter(hunter), prey(prey), Action(speed) {}
+Kill::Kill(Humanoid * hunter, Humanoid *prey) : Action(hunter), prey(prey){}
 
 void Kill::execute(Field &f) {
-    //TODO : remove people from field
     prey->setAlive(false);
-
 }

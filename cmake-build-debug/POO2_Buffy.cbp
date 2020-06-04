@@ -126,6 +126,9 @@
 		<Unit filename="C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Moving/Wander.h">
 			<Option target="POO2_Buffy"/>
 		</Unit>
+		<Unit filename="C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Action/Utils.h">
+			<Option target="POO2_Buffy"/>
+		</Unit>
 		<Unit filename="C:/Users/Elodie/Desktop/SCHOOL/SEMESTRE 4/POO2/Laboratoires/POO2-Buffy/Field.cpp">
 			<Option target="POO2_Buffy"/>
 		</Unit>

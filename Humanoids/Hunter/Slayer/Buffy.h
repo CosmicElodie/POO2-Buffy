@@ -19,10 +19,7 @@ private:
 
 public:
     Buffy(size_t x, size_t y);
-
-    virtual void setAction(Field& field);
-
-    virtual void move(Field &field);
+    void setAction(Field& field) override;
 
 };
 

@@ -41,8 +41,6 @@ const bool Humanoid::isAlive() const {
 }
 
 void Humanoid::executeAction(Field &field) {
-    //positionX = nextPositionX;
-    //positionY = nextPositionY;
     nextAction->execute(field);
 }
 
@@ -62,16 +60,35 @@ size_t Humanoid::getSpeed() const {
     return speed;
 }
 
-/*
-void Humanoid::setNextAction(Action *nextAction) {
-    Humanoid::nextAction = nextAction;
-}*/
-
 void Humanoid::setAlive(bool alive) {
     Humanoid::alive = alive;
 }
 
+void Humanoid::setNextPositionX(size_t nextPositionX) {
+    Humanoid::nextPositionX = nextPositionX;
+}
+
+void Humanoid::setNextPositionY(size_t nextPositionY) {
+    Humanoid::nextPositionY = nextPositionY;
+}
+
+size_t Humanoid::getNextPositionX() const {
+    return nextPositionX;
+}
+
+size_t Humanoid::getNextPositionY() const {
+    return nextPositionY;
+}
+
 void Humanoid::setNextAction(Action *nextAction) {
     this->nextAction = nextAction;
+}
+
+void Humanoid::setPositionX(size_t positionX) {
+    Humanoid::positionX = positionX;
+}
+
+void Humanoid::setPositionY(size_t positionY) {
+    Humanoid::positionY = positionY;
 }
 

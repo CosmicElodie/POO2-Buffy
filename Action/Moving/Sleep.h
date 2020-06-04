@@ -14,9 +14,15 @@ class Sleep : public Action {
 private:
 
 public:
-    Sleep();
-    void execute(Field &f);
+    Sleep(Humanoid * humanoid);
 
+    /**
+     * Un humanoïde qui sleep ne fait rien d'autre que de rester sur place.
+     * On initialise donc ses coordonnées à l'endroit où il est.
+     * TODO : NEED REFACTOR AVEC WANDER
+     * @param f : le field sur lequel évolue les humanoïdes.
+     */
+    void execute(Field &f) override;
 };
 
 

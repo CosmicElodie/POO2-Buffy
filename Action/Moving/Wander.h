@@ -12,18 +12,18 @@
 #include <cstdlib>
 #include <Action/Action.h>
 
-class Wander : public Action{
+class Wander : public Action {
 private :
-    size_t speed;
 
 public :
     /**
      * Cette action permet de se déplacer aléatoirement sur le plateau, selon une vitesse donnée.
      */
-    Wander(size_t speed);
+    Wander(Humanoid * humanoid);
 
     virtual void execute(Field &f);
 
+    void walkTowards(size_t direction);
 };
 
 

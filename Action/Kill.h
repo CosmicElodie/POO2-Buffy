@@ -14,8 +14,6 @@
 class Kill : public Action {
 
 private:
-    //Référence sur le chasseur
-    Hunter *hunter;
 
     //Référence sur la proie
     Humanoid *prey;
@@ -27,7 +25,7 @@ public:
      * @param hunter : le chasseur
      * @param prey : la proie
      */
-    Kill(size_t speed, Hunter *hunter, Humanoid *prey);
+    Kill(Humanoid * hunter, Humanoid *prey);
     virtual void execute(Field &f);
 
 };

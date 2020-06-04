@@ -16,7 +16,6 @@ private :
     static const size_t SPEED = 1;
     static const char ALIVE = true;
 
-
 public :
     LambdaHuman(size_t x, size_t y);
 

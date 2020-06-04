@@ -39,6 +39,8 @@ private :
     //la position de l'humanoide sur le terrain.
     size_t positionX, positionY;
 
+private:
+
     //la prochaine position de l'humanoide sur le terrain
     size_t nextPositionX, nextPositionY;
 
@@ -78,7 +80,7 @@ public:
      * @param field : le terrain sur lequel se déroule les actions
      */
     virtual void setAction(Field& field) = 0;
-    void setNextAction(Action *nextAction);
+    void setNextAction(Action * nextAction);
 
     bool operator==(const Humanoid &humanoid) const;
     bool operator!=(const Humanoid &humanoid) const;
@@ -92,6 +94,18 @@ public:
     void setAlive(bool alive);
 
     char getRepresentation() const;
+
+    void setNextPositionX(size_t nextPositionX);
+
+    void setNextPositionY(size_t nextPositionY);
+
+    size_t getNextPositionX() const;
+
+    size_t getNextPositionY() const;
+
+    void setPositionX(size_t positionX);
+
+    void setPositionY(size_t positionY);
 };
 
 

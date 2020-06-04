@@ -13,17 +13,16 @@
 class Hunt : public Action {
 
 private :
-    //Référence sur le chasseur
-    Hunter *hunter;
-
     //Référence sur la proie
-    Humanoid *prey;
+    Humanoid * prey;
 
 
 public :
-    Hunt(size_t speed, Hunter *hunter, Humanoid *prey);
+    Hunt(Humanoid * hunter, Humanoid * prey);
 
     virtual void execute(Field &f);
+
+    const bool isKillable() const;
 };
 
 

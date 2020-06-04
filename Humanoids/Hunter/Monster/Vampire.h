@@ -19,6 +19,7 @@ private:
 
 public :
     Vampire(size_t x, size_t y);
+    void setAction(Field& field) override;
 };
 
 

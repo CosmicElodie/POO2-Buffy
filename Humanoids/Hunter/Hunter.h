@@ -12,6 +12,10 @@
 #include <list>
 #include "Humanoid.h"
 
+/**
+ * Cette classe modélise un chasseur dans le jeu.
+ * Un chasseur chasse une proie,
+ */
 class Hunter : public Humanoid {
 
 private:
@@ -44,7 +48,7 @@ public:
      * @param preyPositionY : la composante Y de la position de la proie
      * @return : la distance (norme mathématique) entre le chasseur et la proie.
      */
-    float calculateDistance(size_t hunterPositionX, size_t hunterPositionY, size_t preyPositionX, size_t preyPositionY);
+    float calculateDistance(Hunter * hunter, Humanoid * prey);
 
     /**
      * Trouve la proie la plus proche du chasseur.
@@ -53,7 +57,10 @@ public:
      * @param humanoids : la liste des humanoïdes présents sur le board.
      * @return la proie la plus proche du chasseur.
      */
-    const Humanoid * findClosestPray(Hunter & hunter, const std::type_info* preyType, std::list<Humanoid*>* humanoids);
+    Humanoid * findClosestPrey(Field & field);
+
+    void kill(Humanoid * prey);
+
 
 };
 

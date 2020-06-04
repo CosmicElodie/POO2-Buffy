@@ -10,17 +10,27 @@
 
 #include <list>
 #include <iostream>
+#include "Field.h"
 #include "Humanoids/Humanoid.h"
 
 class Humanoid;
 
 class Field {
+    /*
     friend std::ostream & operator <<(std::ostream& os, Field & f) {
         printLine(os, f);
         for (size_t row = 0; row < f.width; ++row) {
             std::cout << SEPARATOR_1;
             for (size_t column = 0; column < f.height; ++column) {
-                std::cout << f.field[row][column];
+                for(Humanoid * humanoid : humanoids) {
+                    if(humanoid->getPositionX() == row && humanoid->getPositionY() == column)
+                    {
+                        std::cout << humanoid.getRepresentation();
+                    }
+                    else {
+                        std::cout << "";
+                    }
+                }
             }
             std::cout << SEPARATOR_1 << std::endl;
         }
@@ -28,10 +38,12 @@ class Field {
 
         return os;
     }
+    */
 private :
     static const char SEPARATOR_1 = '|';
     static const char SEPARATOR_2 = '+';
     static const char SEPARATOR_3 = '-';
+
     //tour
     size_t turn;
 
@@ -41,11 +53,9 @@ private :
     //liste d'humanoides peuplant le terrain
     std::list<Humanoid*> humanoids;
 
-protected:
-    //Représentation du field sous forme matricielle
-    char** field;
-
 public :
+
+    void printBoard();
 
     /**
      * Constructeur
@@ -55,12 +65,6 @@ public :
      */
     explicit Field(size_t width, size_t height, size_t nbVampires, size_t nbHumans);
 
-    /**
-     * Sert à initialiser le board.
-     * @param width : la largeur du board
-     * @param height : la longueur du board
-     */
-    void initializeBoard(size_t width, size_t height);
 
     /**
      * Permet de répartir les différents acteurs sur le board.
@@ -83,8 +87,7 @@ public :
 
     const std::list<Humanoid *> &getHumanoids() const;
 
-    void placeHumanoids(size_t x, size_t y, char representation);
-    static void printLine(std::ostream & os, Field & field);
+    static void printLine(Field & field);
 
 };
 

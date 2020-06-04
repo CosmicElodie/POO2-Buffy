@@ -7,6 +7,11 @@
 
 #include "Sleep.h"
 
-Sleep::Sleep() : Action(0) { }
 
-void Sleep::execute(Field &f) { }
+void Sleep::execute(Field &f) {
+    humanoid->setPositionX(humanoid->getPositionX());
+    humanoid->setPositionY(humanoid->getPositionY());
+}
+
+Sleep::Sleep(Humanoid * humanoid) : Action(humanoid) {
+}

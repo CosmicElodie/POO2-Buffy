@@ -7,54 +7,47 @@
 
 #include <Action/Moving/Hunt.h>
 #include <Action/Moving/Wander.h>
-#include <Action/Moving/Sleep.h>
+#include "Monster/Vampire.h"
+#include "Victim/LambdaHuman.h"
 #include "Hunter.h"
-#include "./Monster/Vampire.h"
-#include "./Victim/LambdaHuman.h"
 
 Hunter::Hunter(size_t alive, const char representation, size_t x, size_t y, const size_t speed) :
-Humanoid(alive, representation, x, y, speed){
+        Humanoid(alive, representation, x, y, speed) {
+
     prey = nullptr;
-
 }
 
-void Hunter::setAction(Field & field) {
-    const std::type_info *preyType = (this->getRepresentation() == 'B') ?  &(typeid(Vampire)) : &(typeid(LambdaHuman));
+void Hunter::setAction(Field &field) {
 
-    if(preyType != nullptr)
-    {
-        Hunt * hunt = new Hunt(this->getSpeed(), this, prey);
-        this->setNextAction(hunt);
-    }else{
-        if(this->getRepresentation() == 'B')
-        {
-            Wander * wander = new Wander(this->getSpeed());
-            this->setNextAction(wander);
-        } else{
-            Sleep * sleep = new Sleep();
-            this->setNextAction(sleep);
-        }
+    prey = (findClosestPrey(field));
 
-    }
+    //On créé un objet "Hunt" avec la proie référencée.
+    Hunt * hunt = new Hunt(this, prey);
+    this->setNextAction(hunt);
 }
 
-float Hunter::calculateDistance(size_t hunterPositionX, size_t hunterPositionY, size_t preyPositionX, size_t preyPositionY){
-    return sqrt(pow(hunterPositionX - hunterPositionY, 2) + pow(preyPositionX - preyPositionY, 2));
+float
+Hunter::calculateDistance(Hunter * hunter, Humanoid * prey) {
+    return sqrt(
+            pow(hunter->getPositionX() - hunter->getPositionY(), 2) +
+            pow(prey->getPositionX() - prey->getPositionY(), 2));
 }
 
-const Humanoid *Hunter::findClosestPray(Hunter & hunter, const std::type_info *preyType, std::list<Humanoid *> *humanoids) {
+Humanoid *
+Hunter::findClosestPrey(Field &field) {
+    const std::type_info *preyType = (this->getRepresentation() == 'B') ? &(typeid(Vampire)) : &(typeid(LambdaHuman));
+
     float distance = -1, newDistance = -1;
-    Humanoid * prey = nullptr;
+    Humanoid *current_prey = nullptr;
 
-    for (auto humanoidIt = humanoids->begin(); humanoidIt != humanoids->end(); humanoidIt++ ){
-        newDistance = calculateDistance(hunter.getPositionX(), hunter.getPositionY(),
-                                        (*humanoidIt)->getPositionX(), (*humanoidIt)->getPositionY());
-        if( ((distance <= -1) || (distance > newDistance)) && typeid( *(*humanoidIt) ) == *preyType)
-        {
-            prey = (*humanoidIt);
+    for (auto &prey : field.getHumanoids()) {
+        newDistance = calculateDistance(this,
+                                        prey);
+        if (((distance <= -1) || (distance > newDistance)) && typeid(*prey) == *preyType) {
+            current_prey = prey;
             distance = newDistance;
         }
     }
-    return prey;
+    return current_prey;
 }
 
