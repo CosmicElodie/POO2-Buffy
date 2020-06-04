@@ -47,6 +47,9 @@ private :
     //tour
     size_t turn;
 
+    //nombre de vampires et humains
+    size_t nbVampires, nbHumans;
+
     //dimensions du terrain
     size_t width, height;
 
@@ -55,7 +58,7 @@ private :
 
 public :
 
-    void printBoard();
+    void printField();
 
     /**
      * Constructeur
@@ -89,6 +92,11 @@ public :
 
     static void printLine(Field & field);
 
+    bool isTaken(size_t x, size_t y);
+
+    void searchForFreePlace(size_t & x, size_t & y);
+
+    bool isCorrect(size_t x, size_t y);
 };
 
 #endif //POO2_BUFFY_CRULL_LAGIER_FIELD_H

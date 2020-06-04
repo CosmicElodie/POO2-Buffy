@@ -16,7 +16,6 @@ void Wander::execute(Field &f) {
 Wander::Wander(Humanoid *humanoid) : Action(humanoid) {
     size_t direction = rand() % 8;
     walkTowards(direction);
-
 }
 
 void Wander::walkTowards(size_t direction) {

@@ -17,38 +17,77 @@ const char VAMPIRE_REPRESENTATION = 'V';
 const char HUMAN_REPRESENTATION = 'H';
 const char BUFFY_REPRESENTATION = 'B';
 
-Field::Field(size_t width, size_t height, size_t nbVampires, size_t nbHumans) : width(width), height(height)
+Field::Field(size_t width, size_t height, size_t nbVampires, size_t nbHumans) :
+width(width), height(height), nbVampires(nbVampires), nbHumans(nbHumans), turn(0)
 {
-    //on créé les humains.
-    initializePeople(HUMAN_REPRESENTATION, nbHumans);
+    unsigned int x = rand() % width,
+            y = rand() % height;
+    for (int h = 0; h < nbHumans; ++h) {
+        while (isTaken(x, y)) {
+            x = rand() % width;
+            y = rand() % height;
+        }
+        humanoids.push_back(new LambdaHuman(x, y));
+    }
+    for (int v = 0; v < nbVampires; ++v) {
+        while (isTaken(x, y)) {
+            x = rand() % width;
+            y = rand() % height;
+        }
+        humanoids.push_back(new Vampire(x, y));
+    }
 
-    //on créé les vampires.
-    initializePeople(VAMPIRE_REPRESENTATION, nbVampires);
-
-    //on créé Buffy.
-    initializePeople(BUFFY_REPRESENTATION, 1);
+    while (isTaken(x, y)) {
+        x = rand() % width;
+        y = rand() % height;
+    }
+    humanoids.push_back(new Buffy(x, y));
 }
 
 void Field::initializePeople(const char representation, size_t number)
 {
-    //On initialise la seed selon le temps actuel, pour avoir une valeur différente à chaque fois.
-    //srand( (unsigned)time(NULL) );
+    size_t x = rand() % width, y = rand() % height;
 
     for(int n = 0; n < number; ++n)
     {
+        searchForFreePlace(x, y);
         switch(representation)
         {
-            case HUMAN_REPRESENTATION : humanoids.push_back(new LambdaHuman(rand() % width, rand() % height));
+            case HUMAN_REPRESENTATION :
+                humanoids.push_back(new LambdaHuman(x, y));
                 break;
             case VAMPIRE_REPRESENTATION :
-                humanoids.push_back(new Vampire(rand() % width, rand() % height));
+                humanoids.push_back(new Vampire(x, y));
                 break;
-            case BUFFY_REPRESENTATION : humanoids.push_back(new Buffy(rand() % width, rand() % height));
+            case BUFFY_REPRESENTATION :
+                humanoids.push_back(new Buffy(x, y));
                 break;
             default : throw("unrecognized humanoid representation");
         }
     }
+}
 
+void Field::searchForFreePlace(size_t & x, size_t & y) {
+    //Tant qu'il n'y a pas de place libre, on génère des nombres aléatoires pour les coordonnées de la position.
+    while ((isTaken(x, y) && !isCorrect(x,y)) || (!isTaken(x, y) && !isCorrect(x,y))) {
+        x = rand() % width;
+        y = rand() % height;
+    }
+}
+
+bool Field::isTaken(size_t x, size_t y)
+{
+    //On itère sur tous les humanoïdes présents pour savoir si l'emplacement est libre
+    for(Humanoid* humanoid : humanoids) {
+        if(humanoid->getPositionX() == x && humanoid->getPositionY() == y) {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool Field::isCorrect(size_t x, size_t y) {
+    return (x >= 0 && x < width && y >= 0 && y < height);
 }
 
 int Field::nextTurn()
@@ -57,8 +96,10 @@ int Field::nextTurn()
     for (std::list<Humanoid*>::iterator it = humanoids.begin(); it != humanoids.end(); it++)
         (*it)->setAction(*this);
 // Executer les actions
-    for (std::list<Humanoid*>::iterator it = humanoids.begin(); it != humanoids.end(); it++)
+    for (std::list<Humanoid*>::iterator it = humanoids.begin(); it != humanoids.end(); it++) {
         (*it)->executeAction(*this);
+        std::cout << "Je suis un " << (*it)->getRepresentation() << " (" << (*it)->getPositionX() << ", " << (*it)->getPositionY() << ")" << std::endl;
+    }
 // Enlever les humanoides tués
     for (std::list<Humanoid*>::iterator it = humanoids.begin(); it != humanoids.end(); )
         if (!(*it)->isAlive()) {
@@ -93,8 +134,8 @@ void Field::printLine(Field & field) {
     std::cout  << SEPARATOR_2 << std::endl;
 }
 
-void Field::printBoard() {
-    //printLine(os, f);
+void Field::printField() {
+    printLine(*this);
     bool humand_found = false;
     for (size_t row = 0; row < width; ++row) {
         std::cout << SEPARATOR_1;
@@ -110,12 +151,11 @@ void Field::printBoard() {
             if(!humand_found)
             {
                 std::cout << " ";
-
             }
             humand_found = false;
         }
         std::cout << SEPARATOR_1 << std::endl;
     }
-    //printLine(os, f);
+    printLine(*this);
 }
 

@@ -21,8 +21,6 @@ public :
 
     virtual void setAction(Field& field);
 
-    virtual void setNextAction(Action *nextAction);
-
 
 };
 

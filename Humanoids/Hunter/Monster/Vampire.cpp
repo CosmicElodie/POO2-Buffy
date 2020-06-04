@@ -5,10 +5,8 @@
 * Fichier       : Monster.h
 */
 
-#include <Action/Moving/Wander.h>
+#include <Action/Moving/Sleep.h>
 #include "Vampire.h"
-#include "Hunter/Slayer/Buffy.h"
-#include "Victim/LambdaHuman.h"
 
 Vampire::Vampire(size_t x, size_t y) : Hunter(ALIVE, REPRESENTATION, x, y, SPEED) {}
 
@@ -16,7 +14,7 @@ void Vampire::setAction(Field& field) {
     bool isPreyOnBoard = false;
     for(Humanoid * h : field.getHumanoids())
     {
-        if(typeid(h) == (typeid(LambdaHuman)))
+        if(h->getRepresentation() == 'H')
         {
             isPreyOnBoard = true;
             break;
@@ -28,6 +26,7 @@ void Vampire::setAction(Field& field) {
         Hunter::setAction(field);
     }
     else {
-        Wander * wander = new Wander(this);
+        Sleep * sleep = new Sleep((Humanoid*)this);
+        this->setNextAction(sleep);
     }
 }

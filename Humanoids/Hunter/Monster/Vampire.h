@@ -14,8 +14,7 @@ class Vampire : public Hunter {
 private:
     static const char ALIVE = false;
     static const char REPRESENTATION = 'V';
-    const char PREYS[2] = {'B', 'H'};
-    static const size_t SPEED = 2;
+    static const size_t SPEED = 1;
 
 public :
     Vampire(size_t x, size_t y);

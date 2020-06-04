@@ -26,8 +26,6 @@ Humanoid &Humanoid::operator=(const Humanoid &humanoid) {
 bool Humanoid::operator==(const Humanoid &humanoid) const {
     return (this->alive == humanoid.alive &&
             this->representation == humanoid.representation &&
-            this->positionX == humanoid.positionX &&
-            this->positionY == humanoid.positionY &&
             this->speed == humanoid.speed);
 }
 

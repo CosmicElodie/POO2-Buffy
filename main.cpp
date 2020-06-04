@@ -1,73 +1,57 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include <cstring>
 #include "Field.h"
 #include "Hunter/Monster/Vampire.h"
+
 using namespace std;
 
-void printInstructions();
+void menu() {
+    printf("\n%c>uit - %c>tatistics - %c>ext\n",'q', 's', 'n');
+}
 
-bool checkInput(string input, bool& run);
+bool check(char userInput, Field & field) {
+    switch (userInput) {
+        case 'q' :
+            std::cout << "Babaye ! (^-^)/";
+            exit(EXIT_SUCCESS);
+        case 's' :
+            //cout << field.generateStatistics() << endl;
+            return true;
+        case 'n' :
+            cout << "Turn " << (field.nextTurn() + 1) << endl;
+            field.printField();
+            return true;
+        default :
+            cout << "Erreur de saisie !" << endl;
+            return false;
+    }
+
+}
 
 int main(int argc, char *argv[]) {
-    unsigned int gridWidth, gridHeight, humanCount, vampireCount;
+    size_t fieldWidth, fieldHeight, nbHumans, nbVampires;
     if (argc != 5) {
+        std::cout << "Vous avez rentré un nombre incorrect d'arguments.";
         return EXIT_FAILURE;
     }
 
-    string input;
-    bool run = true;
-    srand (time(NULL));
+    char userInput;
+    bool isRunning = true;
+    srand(time(NULL));
 
-    gridWidth = atoi(argv[1]);
-    gridHeight = atoi(argv[2]);
-    humanCount = atoi(argv[3]);
-    vampireCount = atoi(argv[4]);
+    fieldWidth = atoi(argv[1]);
+    fieldHeight = atoi(argv[2]);
+    nbVampires = atoi(argv[3]);
+    nbHumans = atoi(argv[4]);
 
-    Field simulation(gridWidth, gridHeight, humanCount, vampireCount);
+    Field field(fieldWidth, fieldHeight, nbVampires, nbHumans);
+    field.printField();
 
-    cout << "Initial simulation state : " << endl;
-    simulation.printBoard();
-
-    while (run) {
-        printInstructions();
-
+    while(isRunning)
+    {
         do {
-            cout << "Press a valid key" << endl;
-            getline(cin, input);
-            fflush(stdin);
-        } while (!checkInput(input, run));
-
-        if (!input.empty() && input.at(0) == 's') {
-            //cout << simulation.stats() << endl;
-        } else if (input.empty() || input.at(0) == 'n') {
-            cout << "Turn " << (simulation.nextTurn() + 1) << endl;
-            simulation.printBoard();
-        }
+            menu();
+        } while (((userInput = getchar()) != '\n' && userInput != EOF) && check(userInput, field));
     }
-
-    return EXIT_SUCCESS;
-}
-
-bool checkInput(string input, bool& run) {
-    if (input.empty()) {
-        return true;
-    } else if (input.size() > 1) {
-        return false;
-    }
-    char i = input.at(0);
-
-    if (i != 's' && i != 'n' && i != '\0' && i != 'q') {
-        return false;
-    }
-    if (i == 'q') {
-        run = false;
-    }
-    return true;
-}
-
-void printInstructions() {
-    printf("\nValid keys :\n - %c or <enter> : next turn\n - %c : see statistics\n - %c : quit the program\n",
-           'n', 's', 'q');
 }

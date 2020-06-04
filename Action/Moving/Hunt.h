@@ -22,7 +22,9 @@ public :
 
     virtual void execute(Field &f);
 
-    const bool isKillable() const;
+    //const bool isKillable() const;
+
+    size_t CalculateNewCoordinate(int coordinate, int preyPosition, int humanPosition, size_t fieldSide);
 };
 
 
